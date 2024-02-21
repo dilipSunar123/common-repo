@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Companion_Speak,Chrome 121.0.0.0,,,08-02-2024 16:27:44,08-02-2024 16:32:53,5m - 9.081s,PASSED
+,,,,,,,
+Test Cases/Companion_TestCases/TC08_CreateProfile_Speak,Chrome 121.0.0.0,,,08-02-2024 16:27:44,08-02-2024 16:30:22,2m - 37.431s,PASSED
+"callTestCase(findTestCase(""Common_TestCases/Companion_SignUp""), [""username"":UserName, ""zipcode"":ZipCode, ""email"":Email, ""password"":Password], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,08-02-2024 16:27:45,08-02-2024 16:27:54,8.664s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile""), 10)",Chrome 121.0.0.0,,,08-02-2024 16:27:54,08-02-2024 16:27:59,5.205s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited""), 10)",Chrome 121.0.0.0,,,08-02-2024 16:27:59,08-02-2024 16:27:59,0.056s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""), 67)",Chrome 121.0.0.0,,,08-02-2024 16:27:59,08-02-2024 16:28:45,46.314s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""))",Chrome 121.0.0.0,,,08-02-2024 16:28:45,08-02-2024 16:28:45,0.113s,PASSED
+try,Chrome 121.0.0.0,,,08-02-2024 16:28:45,08-02-2024 16:29:03,17.300s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop""))",Chrome 121.0.0.0,,,08-02-2024 16:29:03,08-02-2024 16:29:03,0.086s,PASSED
+"scrollToElement(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""), 0)",Chrome 121.0.0.0,,,08-02-2024 16:29:03,08-02-2024 16:29:03,0.078s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""), 60)",Chrome 121.0.0.0,,,08-02-2024 16:29:03,08-02-2024 16:29:18,15.393s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""))",Chrome 121.0.0.0,,,08-02-2024 16:29:18,08-02-2024 16:29:18,0.078s,PASSED
+delay(20),Chrome 121.0.0.0,,,08-02-2024 16:29:18,08-02-2024 16:29:38,20.021s,PASSED
+"waitForElementNotPresent(findTestObject(""WaitingPage/Waiting_Page/txt_1-2 minutes""), 180)",Chrome 121.0.0.0,,,08-02-2024 16:29:38,08-02-2024 16:29:38,0.060s,PASSED
+"Education = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info""), ""value"")",Chrome 121.0.0.0,,,08-02-2024 16:29:38,08-02-2024 16:29:39,0.054s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""EDUCATION"", Education, EducationNew)",Chrome 121.0.0.0,,,08-02-2024 16:29:39,08-02-2024 16:29:39,0.050s,PASSED
+"FamilyAndCommunity = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement""), ""value"")",Chrome 121.0.0.0,,,08-02-2024 16:29:39,08-02-2024 16:29:39,0.054s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""FAMILYANDCOMMUNITY"", FamilyAndCommunity, FamilyAndCommunityNew)",Chrome 121.0.0.0,,,08-02-2024 16:29:39,08-02-2024 16:29:39,0.002s,PASSED
+"Hobbies = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies""), ""value"")",Chrome 121.0.0.0,,,08-02-2024 16:29:39,08-02-2024 16:29:39,0.050s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""HOBBIES"", Hobbies, HobbiesNew)",Chrome 121.0.0.0,,,08-02-2024 16:29:39,08-02-2024 16:29:39,0.003s,PASSED
+"Expectations = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation""), ""value"")",Chrome 121.0.0.0,,,08-02-2024 16:29:39,08-02-2024 16:29:39,0.056s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""EXPECTATIONS"", Expectations, ExpectationsNew)",Chrome 121.0.0.0,,,08-02-2024 16:29:39,08-02-2024 16:29:39,0.002s,PASSED
+"Others = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health""), ""value"")",Chrome 121.0.0.0,,,08-02-2024 16:29:39,08-02-2024 16:29:39,0.045s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""OTHERS"", Others, OtherNew)",Chrome 121.0.0.0,,,08-02-2024 16:29:39,08-02-2024 16:29:39,0.003s,PASSED
+"waitForElementClickable(findTestObject(""Category_View_Page/Category_View_Page_Objects/button_Next""), 65)",Chrome 121.0.0.0,,,08-02-2024 16:29:39,08-02-2024 16:29:39,0.048s,PASSED
+"click(findTestObject(""Category_View_Page/Category_View_Page_Objects/button_Next""))",Chrome 121.0.0.0,,,08-02-2024 16:29:39,08-02-2024 16:29:41,2.184s,PASSED
+"waitForElementNotPresent(findTestObject(""WaitingPage/Waiting_Page/Clock_categoryToCalender""), 10)",Chrome 121.0.0.0,,,08-02-2024 16:29:41,08-02-2024 16:29:41,0.041s,PASSED
+"scrollToElement(findTestObject(""Calendar_page/Input_Start_Date""), 0)",Chrome 121.0.0.0,,,08-02-2024 16:29:41,08-02-2024 16:29:51,9.842s,PASSED
+"click(findTestObject(""Calendar_page/Input_Start_Date""))",Chrome 121.0.0.0,,,08-02-2024 16:29:51,08-02-2024 16:29:53,2.228s,PASSED
+delay(3),Chrome 121.0.0.0,,,08-02-2024 16:29:53,08-02-2024 16:29:56,3.018s,PASSED
+"click(findTestObject(""Calendar_page/startDate/JanuaryStartDates/div_20""))",Chrome 121.0.0.0,,,08-02-2024 16:29:56,08-02-2024 16:29:56,0.094s,PASSED
+delay(3),Chrome 121.0.0.0,,,08-02-2024 16:29:56,08-02-2024 16:29:59,3.019s,PASSED
+"click(findTestObject(""Calendar_page/Input_Busy_Days""))",Chrome 121.0.0.0,,,08-02-2024 16:29:59,08-02-2024 16:29:59,0.099s,PASSED
+"click(findTestObject(""Calendar_page/busyDates/JanuaryBusyDate/div_23""))",Chrome 121.0.0.0,,,08-02-2024 16:29:59,08-02-2024 16:29:59,0.091s,PASSED
+delay(2),Chrome 121.0.0.0,,,08-02-2024 16:29:59,08-02-2024 16:30:01,2.017s,PASSED
+"click(findTestObject(""Calendar_page/busyDates/JanuaryBusyDate/div_24""))",Chrome 121.0.0.0,,,08-02-2024 16:30:01,08-02-2024 16:30:02,0.090s,PASSED
+delay(2),Chrome 121.0.0.0,,,08-02-2024 16:30:02,08-02-2024 16:30:04,2.006s,PASSED
+"click(findTestObject(""Calendar_page/div_day_Column""))",Chrome 121.0.0.0,,,08-02-2024 16:30:04,08-02-2024 16:30:04,0.090s,PASSED
+"selectOptionByLabel(findTestObject(""Calendar_page/Select_Available_From""), ""03:00 PM"", false)",Chrome 121.0.0.0,,,08-02-2024 16:30:04,08-02-2024 16:30:04,0.140s,PASSED
+delay(2),Chrome 121.0.0.0,,,08-02-2024 16:30:04,08-02-2024 16:30:06,2.003s,PASSED
+"selectOptionByLabel(findTestObject(""Calendar_page/Select_Available_To""), ""04:00 PM"", false)",Chrome 121.0.0.0,,,08-02-2024 16:30:06,08-02-2024 16:30:06,0.099s,PASSED
+delay(2),Chrome 121.0.0.0,,,08-02-2024 16:30:06,08-02-2024 16:30:08,2.017s,PASSED
+"click(findTestObject(""Calendar_page/button_Save""))",Chrome 121.0.0.0,,,08-02-2024 16:30:08,08-02-2024 16:30:08,0.105s,PASSED
+delay(2),Chrome 121.0.0.0,,,08-02-2024 16:30:08,08-02-2024 16:30:10,2.014s,PASSED
+"click(findTestObject(""Calendar_page/Button_Next (1)""))",Chrome 121.0.0.0,,,08-02-2024 16:30:10,08-02-2024 16:30:10,0.085s,PASSED
+delay(3),Chrome 121.0.0.0,,,08-02-2024 16:30:10,08-02-2024 16:30:13,3.004s,PASSED
+"click(findTestObject(""Calendar_page/button_Ok""))",Chrome 121.0.0.0,,,08-02-2024 16:30:13,08-02-2024 16:30:13,0.117s,PASSED
+delay(2),Chrome 121.0.0.0,,,08-02-2024 16:30:13,08-02-2024 16:30:15,2.010s,PASSED
+"callTestCase(findTestCase(""Companion_TestCases/TC10_Companion_Demographic""), [""UserName"":UserName, ""ZipCode"":ZipCode, ""Email"":Email, ""Password"":Password, ""EducationNew"":EducationNew, ""FamilyAndCommunityNew"":FamilyAndCommunityNew, ... ], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,08-02-2024 16:30:15,08-02-2024 16:30:21,6.138s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,08-02-2024 16:30:21,08-02-2024 16:30:22,0.495s,PASSED
+,,,,,,,
+Test Cases/Companion_TestCases/TC09_ReRecord_Speak,Chrome 121.0.0.0,,,08-02-2024 16:30:22,08-02-2024 16:32:53,2m - 31.182s,PASSED
+"callTestCase(findTestCase(""Common_TestCases/Companion_Sign_In""), [""email"":"""", ""password"":""""], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,08-02-2024 16:30:23,08-02-2024 16:30:29,6.568s,PASSED
+delay(5),Chrome 121.0.0.0,,,08-02-2024 16:30:29,08-02-2024 16:30:34,5.013s,PASSED
+"scrollToElement(findTestObject(""Category_View_Page/Category_View_Page_Objects/button_Re-record""), 0)",Chrome 121.0.0.0,,,08-02-2024 16:30:34,08-02-2024 16:30:34,0.036s,PASSED
+"click(findTestObject(""Category_View_Page/Category_View_Page_Objects/button_Re-record""))",Chrome 121.0.0.0,,,08-02-2024 16:30:34,08-02-2024 16:30:36,2.147s,PASSED
+"click(findTestObject(""Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord""))",Chrome 121.0.0.0,,,08-02-2024 16:30:36,08-02-2024 16:30:39,2.163s,PASSED
+"waitForElementClickable(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""), 67)",Chrome 121.0.0.0,,,08-02-2024 16:30:39,08-02-2024 16:31:29,49.912s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record""))",Chrome 121.0.0.0,,,08-02-2024 16:31:29,08-02-2024 16:31:29,0.072s,PASSED
+try,Chrome 121.0.0.0,,,08-02-2024 16:31:29,08-02-2024 16:31:46,17.152s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop""))",Chrome 121.0.0.0,,,08-02-2024 16:31:46,08-02-2024 16:31:46,0.071s,PASSED
+delay(20),Chrome 121.0.0.0,,,08-02-2024 16:31:46,08-02-2024 16:32:06,20.011s,PASSED
+"click(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next""))",Chrome 121.0.0.0,,,08-02-2024 16:32:06,08-02-2024 16:32:06,0.077s,PASSED
+delay(20),Chrome 121.0.0.0,,,08-02-2024 16:32:06,08-02-2024 16:32:26,20.010s,PASSED
+"waitForElementNotPresent(findTestObject(""WaitingPage/Waiting_Page/txt_1-2 minutes""), 180)",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:26,0.035s,PASSED
+"Education = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info""), ""value"")",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:26,0.047s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""EDUCATION"", Education, EducationNew)",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:26,0.002s,PASSED
+"FamilyAndCommunity = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement""), ""value"")",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:26,0.049s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""FAMILYANDCOMMUNITY"", FamilyAndCommunity, FamilyAndCommunityNew)",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:26,0.002s,PASSED
+"Hobbies = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies""), ""value"")",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:26,0.048s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""HOBBIES"", Hobbies, HobbiesNew)",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:26,0.001s,PASSED
+"Expectations = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation""), ""value"")",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:26,0.046s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""EXPECTATIONS"", Expectations, ExpectationsNew)",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:26,0.001s,PASSED
+"Others = getAttribute(findTestObject(""Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health""), ""value"")",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:26,0.040s,PASSED
+"validateText.ValidateText.calculateAndPrintPercentageMatch(""OTHERS"", Others, OtherNew)",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:26,0.002s,PASSED
+"waitForElementClickable(findTestObject(""Category_View_Page/Category_View_Page_Objects/button_Next""), 65)",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:26,0.040s,PASSED
+"click(findTestObject(""Category_View_Page/Category_View_Page_Objects/button_Next""))",Chrome 121.0.0.0,,,08-02-2024 16:32:26,08-02-2024 16:32:28,2.170s,PASSED
+"waitForElementNotPresent(findTestObject(""WaitingPage/Waiting_Page/Clock_categoryToCalender""), 10)",Chrome 121.0.0.0,,,08-02-2024 16:32:28,08-02-2024 16:32:28,0.038s,PASSED
+"scrollToElement(findTestObject(""Calendar_page/Input_Start_Date""), 0)",Chrome 121.0.0.0,,,08-02-2024 16:32:28,08-02-2024 16:32:32,3.888s,PASSED
+"click(findTestObject(""Calendar_page/Input_Busy_Days""))",Chrome 121.0.0.0,,,08-02-2024 16:32:32,08-02-2024 16:32:35,2.187s,PASSED
+"click(findTestObject(""Calendar_page/busyDates/JanuaryBusyDate/div_27""))",Chrome 121.0.0.0,,,08-02-2024 16:32:35,08-02-2024 16:32:35,0.000s,NOT_RUN
+delay(2),Chrome 121.0.0.0,,,08-02-2024 16:32:35,08-02-2024 16:32:35,0.000s,NOT_RUN
+"click(findTestObject(""Calendar_page/busyDates/JanuaryBusyDate/div_27""))",Chrome 121.0.0.0,,,08-02-2024 16:32:35,08-02-2024 16:32:35,0.001s,NOT_RUN
+delay(2),Chrome 121.0.0.0,,,08-02-2024 16:32:35,08-02-2024 16:32:37,2.003s,PASSED
+"click(findTestObject(""Calendar_page/div_day_Column""))",Chrome 121.0.0.0,,,08-02-2024 16:32:37,08-02-2024 16:32:37,0.066s,PASSED
+"selectOptionByLabel(findTestObject(""Calendar_page/Select_Available_From""), ""05:30 PM"", false)",Chrome 121.0.0.0,,,08-02-2024 16:32:37,08-02-2024 16:32:37,0.103s,PASSED
+delay(2),Chrome 121.0.0.0,,,08-02-2024 16:32:37,08-02-2024 16:32:39,2.003s,PASSED
+"selectOptionByLabel(findTestObject(""Calendar_page/Select_Available_To""), ""06:00 PM"", false)",Chrome 121.0.0.0,,,08-02-2024 16:32:39,08-02-2024 16:32:39,0.078s,PASSED
+delay(2),Chrome 121.0.0.0,,,08-02-2024 16:32:39,08-02-2024 16:32:41,2.007s,PASSED
+"click(findTestObject(""Calendar_page/button_Save""))",Chrome 121.0.0.0,,,08-02-2024 16:32:41,08-02-2024 16:32:41,0.074s,PASSED
+delay(2),Chrome 121.0.0.0,,,08-02-2024 16:32:41,08-02-2024 16:32:43,2.016s,PASSED
+"click(findTestObject(""Calendar_page/Button_Next (1)""))",Chrome 121.0.0.0,,,08-02-2024 16:32:43,08-02-2024 16:32:43,0.060s,PASSED
+delay(3),Chrome 121.0.0.0,,,08-02-2024 16:32:43,08-02-2024 16:32:46,3.014s,PASSED
+"click(findTestObject(""Calendar_page/button_Ok""))",Chrome 121.0.0.0,,,08-02-2024 16:32:46,08-02-2024 16:32:46,0.081s,PASSED
+delay(2),Chrome 121.0.0.0,,,08-02-2024 16:32:46,08-02-2024 16:32:48,2.014s,PASSED
+"callTestCase(findTestCase(""Companion_TestCases/TC10_Companion_Demographic""), [""UserName"":"""", ""Email"":Email, ""EducationNew"":EducationNew, ""FamilyAndCommunityNew"":FamilyAndCommunityNew, ""HobbiesNew"":HobbiesNew, ... ], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,08-02-2024 16:32:48,08-02-2024 16:32:53,5.151s,PASSED

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Issuing driving license state</name>
+   <tag></tag>
+   <elementGuidId>7925e7f2-4c12-4c1e-95ee-daacbe68b3b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/form/div[2]/div/div[2]/div[3]/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>e3f4be1d-7acb-47ac-9962-932a33f02f34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>inputDlState</value>
+      <webElementGuid>e71632ef-165b-4b13-938a-a57205f3b0b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>demographic-form-label</value>
+      <webElementGuid>16fd23d1-7540-4d69-9ee3-235d66291fb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Issuing driving license state*</value>
+      <webElementGuid>64c0a242-9742-458e-9b8c-179b120e165c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;demographic-container&quot;]/form[@class=&quot;row g-3&quot;]/div[@class=&quot;demographic-information-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8 col-12&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row pt-3&quot;]/div[@class=&quot;col-sm-12 col-12&quot;]/label[@class=&quot;demographic-form-label&quot;]</value>
+      <webElementGuid>2218d4a0-0b18-4a72-a13d-ee9beaf9efe2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/form/div[2]/div/div[2]/div[3]/div/div/label</value>
+      <webElementGuid>2e0fdb0d-a3b4-4cae-8d7c-6fbd5f881844</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div[3]/div/div/label</value>
+      <webElementGuid>d3697b77-f6a5-4c3f-ab4f-25a920c4d504</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Issuing driving license state*' or . = 'Issuing driving license state*')]</value>
+      <webElementGuid>cc0f82f0-93ed-4090-87f1-13832958be27</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

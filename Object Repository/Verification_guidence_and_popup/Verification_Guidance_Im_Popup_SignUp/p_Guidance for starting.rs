@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Guidance for starting</name>
+   <tag></tag>
+   <elementGuidId>0a38c63f-80be-4a07-a529-6a072204ed73</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>625e4628-3864-4629-a1f3-18bd922705ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-wrapper</value>
+      <webElementGuid>58ed3a74-4d98-454b-9342-8d1a22e5f7a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Guidance for starting</value>
+      <webElementGuid>2b4b1468-eb23-4f97-b0c1-3518872cb4e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container wrapper&quot;]/div[@class=&quot;main--container&quot;]/div[@class=&quot;row justify-content-between&quot;]/div[@class=&quot;col-12 col-md-6 read-card-container mx-auto mx-md-0 my-3 my-sm-0&quot;]/div[@class=&quot;row read-more-container--image&quot;]/div[@class=&quot;frame-read-more w-100&quot;]/div[@class=&quot;div text-center&quot;]/p[@class=&quot;text-wrapper&quot;]</value>
+      <webElementGuid>c278c7dc-a2df-4e6d-8921-9cfef9d41f70</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div/div/div/p</value>
+      <webElementGuid>7b911a17-dcdc-4c0a-8cb7-e446c6cc52eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/p</value>
+      <webElementGuid>96bdd320-ad31-4eb5-aa09-a1254af3b2f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Guidance for starting' or . = 'Guidance for starting')]</value>
+      <webElementGuid>65432ac1-9392-4d05-9e7a-d095bb94cc85</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

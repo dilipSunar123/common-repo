@@ -1,0 +1,182 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info",
+      "brokenLocator": "//textarea[@id\u003d\u0027inputDescriptionEducation\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next",
+      "brokenLocator": "//button[@type\u003d\u0027submit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/form/div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[2]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Help_Page/Page_CaringConnections-v-1.18/svg_buttonFeature",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.col-1 \u003e svg.buttonFeature",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Help_Page/Page_CaringConnections-v-1.18/svg_buttonFeature_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_27",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/div[4]/div[7]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_27_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_15",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[3]/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div[2]/div[2]/div[3]/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_15_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/test_calender/Page_CaringConnections-v-1.18/div_27",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[5]/div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/div[5]/div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/test_calender/Page_CaringConnections-v-1.18/div_27_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/just/Page_CaringConnections-v-1.18/svg",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/just/Page_CaringConnections-v-1.18/svg_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login_Pages/Forgot_Password_Page/back_button_svg",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login_Pages/Forgot_Password_Page/back_button_svg_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/test/Page_CaringConnections-v-1.18/span_",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div/div/div/div/form/div/div/div/label/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/test/Page_CaringConnections-v-1.18/span__position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/t/Page_CaringConnections-v-1.18/svg_buttonFeature",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.col-1 \u003e svg.buttonFeature",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/t/Page_CaringConnections-v-1.18/svg_buttonFeature_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/t/Page_CaringConnections-v-1.18/span_How do modify or delete my availabilit_93199a",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div[3]/div[2]/div[2]/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[(text() \u003d \u0027How do modify or delete my availability in the calendar ?\u0027 or . \u003d \u0027How do modify or delete my availability in the calendar ?\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/t/Page_CaringConnections-v-1.18/span_How do modify or delete my availabilit_93199a_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/t/Page_CaringConnections-v-1.18/span_How can I share my calendarschedule to_ad3f0d",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div[3]/div[6]/div[2]/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[(text() \u003d \u0027How can I share my calendar/schedule to sync with Google, Outlook etc. calendars? \u0027 or . \u003d \u0027How can I share my calendar/schedule to sync with Google, Outlook etc. calendars? \u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/t/Page_CaringConnections-v-1.18/span_How can I share my calendarschedule to_ad3f0d_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/tt/Page_CaringConnections-v-1.18/svg_buttonFeature",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.col-1 \u003e svg.buttonFeature",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/tt/Page_CaringConnections-v-1.18/svg_buttonFeature_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Help_Page_/calender_help_page_companion/svg_buttonFeature",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.col-1 \u003e svg.buttonFeature",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Help_Page_/calender_help_page_companion/svg_buttonFeature_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/test_help/Page_CaringConnections-v-1.18/svg_buttonFeature",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.buttonFeature",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/test_help/Page_CaringConnections-v-1.18/svg_buttonFeature_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/test_help/Page_CaringConnections-v-1.18/svg_buttonFeature_arrow",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.col-1 \u003e svg.buttonFeature",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/test_help/Page_CaringConnections-v-1.18/svg_buttonFeature_arrow_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/next_calender_view_test/Calender_Help_Page_Companion/svg_buttonFeature",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.col-1 \u003e svg.buttonFeature",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/next_calender_view_test/Calender_Help_Page_Companion/svg_buttonFeature_CSS.png"
+    }
+  ]
+}

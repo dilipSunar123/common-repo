@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_badge(role)</name>
+   <tag></tag>
+   <elementGuidId>0ea83527-a013-4503-88f3-923264348d3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.header-name-text.m-1.text-capitalize</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/nav/div/div[2]/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>721e6d8b-7fa3-4834-a458-1dbcc3fedd25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header-name-text m-1 text-capitalize</value>
+      <webElementGuid>89120511-3f1d-4f23-9141-0f19fd8bd680</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ram (Companion)</value>
+      <webElementGuid>071c00dc-880e-480d-b619-4c48f5f3ea0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/nav[@class=&quot;container-fluid mx-auto navbar navbar-expand-lg navbar-light bg-light header-container--size p-0 text-left&quot;]/div[@class=&quot;row w-100 justify-content-between mx-4 my-1&quot;]/div[@class=&quot;col-6 col-sm-3 col-md-3 header-name justify-content-end&quot;]/div[@class=&quot;header-name-container&quot;]/p[@class=&quot;header-name-text m-1 text-capitalize&quot;]</value>
+      <webElementGuid>42ac9923-1456-41bf-898d-95ebe2ce7afa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/nav/div/div[2]/div/p</value>
+      <webElementGuid>05aea44d-2df5-46e6-9087-9472052f7d4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>1a1005d0-f57c-443d-b866-d1842e4b3db3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'ram (Companion)' or . = 'ram (Companion)')]</value>
+      <webElementGuid>d4acfb86-67c9-4511-80c5-ba4eefe4869d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

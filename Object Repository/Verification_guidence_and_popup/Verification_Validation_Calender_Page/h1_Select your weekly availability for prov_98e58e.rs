@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Select your weekly availability for prov_98e58e</name>
+   <tag></tag>
+   <elementGuidId>ec2bd1ae-ea62-4b1c-8760-0f76726294cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.heading.h6.m-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>37e04e8c-b8e9-4d0f-9249-3a1a1843a871</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>heading h6 m-0</value>
+      <webElementGuid>d50c4eab-e9a9-405f-a535-72c7a79a46fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select your weekly availability for providing companionship</value>
+      <webElementGuid>c742694e-9d50-4140-813e-227b7a20b56f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;row px-2&quot;]/div[@class=&quot;col-md-9 p-0&quot;]/h1[@class=&quot;heading h6 m-0&quot;]</value>
+      <webElementGuid>338b9df2-039e-4c1e-8baa-94ec441dc0cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/h1</value>
+      <webElementGuid>8094c3e2-1b76-45b9-aa1e-70c7f1472984</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>fc980ade-3f82-4038-b3ee-eeadefc78972</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Select your weekly availability for providing companionship' or . = 'Select your weekly availability for providing companionship')]</value>
+      <webElementGuid>3ac1dd0f-2e90-4e3b-838f-f6720e61f17f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

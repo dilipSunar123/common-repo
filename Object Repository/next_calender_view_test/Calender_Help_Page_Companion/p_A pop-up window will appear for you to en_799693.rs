@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_A pop-up window will appear for you to en_799693</name>
+   <tag></tag>
+   <elementGuidId>b0b53e36-432b-43cb-94f9-4bd056d95a51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>6fc029f3-cd54-4e97-907a-6094f1bed017</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>A pop-up window will appear for you to enter your availability. We will automatically set the title to “My availability for providing companionship”.</value>
+      <webElementGuid>4d3eae9c-d107-4c5d-83ed-88c6eba27662</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;mt-2&quot;]/div[@class=&quot;questions-container row w-100&quot;]/div[@class=&quot;question-container row col-12 selected&quot;]/div[@class=&quot;answer col-6&quot;]/div[@class=&quot;answer-content&quot;]/div[@class=&quot;step-container&quot;]/div[@class=&quot;step-details&quot;]/p[1]</value>
+      <webElementGuid>7f787796-0daf-4242-92af-98c2dd4bb54e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/p</value>
+      <webElementGuid>2f3fe447-3afb-43e4-9375-e8f450f2883a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/p</value>
+      <webElementGuid>8a555ae9-6177-4e45-b6e9-cff8f0194b89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'A pop-up window will appear for you to enter your availability. We will automatically set the title to “My availability for providing companionship”.' or . = 'A pop-up window will appear for you to enter your availability. We will automatically set the title to “My availability for providing companionship”.')]</value>
+      <webElementGuid>03b590b0-241c-4bed-837b-2fe3c3cc3715</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

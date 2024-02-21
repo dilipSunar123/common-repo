@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Greetings, Im Thomas Jackson, companion view profile text</name>
+   <tag></tag>
+   <elementGuidId>4a5bcbac-9326-4cd7-80b0-cf964f9e2e77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.modal-body-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ff4c2917-7921-49e1-b4c9-1f5a2d558569</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-body-text</value>
+      <webElementGuid>79a914d4-ced6-4673-94ef-bd4962b3da87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Greetings, I'm Thomas Jackson, proudly calling Columbus, OH my hometown. My upbringing was rooted in modest beginnings; my father worked in a hospital, while my mother dedicated herself to nurturing our family as a devoted homemaker. In our household, there were two sisters and one brother. Financial resources were often scarce, but our family was rich in love. Our parents worked tirelessly, instilling essential values of morality, faith in God, and the importance of doing right by others.Education held a prominent place in my parents' aspirations, and they wholeheartedly encouraged me to complete both elementary and middle school. When the time came for high school, I attended East High, where I distinguished myself academically by embracing a challenging curriculum that included all available AP courses. In addition to my academic pursuits, I actively engaged in the policy debate team and contributed to the school's musical endeavors as a member of the band.Upon graduating from high school, I earned admission to The Ohio State University, where I pursued a degree in computer science. During this journey, spanning four years, I delved into UI/UX research and forged lasting friendships. My undergraduate experience at Ohio State has been immensely rewarding, affording me the privilege of connecting with exceptional individuals who have enriched my life in various ways.In my leisure time, I enjoy playing tennis and spending quality time with friends. Furthermore, I maintain an active lifestyle by engaging in outdoor activities, such as running 30 miles every week.Regarding companionship, I seek to work with a senior who shares my intellectual curiosity, ideally someone with a background in the realm of computer science. I aspire to build a relationship with a passionate individual capable of engaging in meaningful conversations, relishing the joys of learning, and savoring the moments we spend together. In return, I offer a promising partnership where we can collectively explore the ever-evolving landscape of innovation and knowledge.</value>
+      <webElementGuid>d9fb4e12-070d-4419-ba09-88b03519df05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;Modal-intro&quot;]/div[@class=&quot;modal-container&quot;]/div[@class=&quot;modal-text-container&quot;]/p[@class=&quot;modal-body-text&quot;]</value>
+      <webElementGuid>a0ba5669-5944-4225-9a1c-a46f2de5194f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div/div/p</value>
+      <webElementGuid>35f6ab8f-2ba4-46ea-aa6e-0bb91a997992</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::p[2]</value>
+      <webElementGuid>2680c7dc-9e83-4cb4-b1c2-da89a13dd277</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Voice Recorder'])[1]/following::p[3]</value>
+      <webElementGuid>63626719-506d-4be6-9be2-9618c94505e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::p[1]</value>
+      <webElementGuid>abc97bcc-594b-4c9d-8922-e77df8b01695</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[1]</value>
+      <webElementGuid>b390cfab-b80e-4e1a-a8ae-13cc1963db89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/p</value>
+      <webElementGuid>978ccca2-28bb-4e4c-970b-288c3ad6723c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = concat(&quot;Greetings, I&quot; , &quot;'&quot; , &quot;m Thomas Jackson, proudly calling Columbus, OH my hometown. My upbringing was rooted in modest beginnings; my father worked in a hospital, while my mother dedicated herself to nurturing our family as a devoted homemaker. In our household, there were two sisters and one brother. Financial resources were often scarce, but our family was rich in love. Our parents worked tirelessly, instilling essential values of morality, faith in God, and the importance of doing right by others.Education held a prominent place in my parents&quot; , &quot;'&quot; , &quot; aspirations, and they wholeheartedly encouraged me to complete both elementary and middle school. When the time came for high school, I attended East High, where I distinguished myself academically by embracing a challenging curriculum that included all available AP courses. In addition to my academic pursuits, I actively engaged in the policy debate team and contributed to the school&quot; , &quot;'&quot; , &quot;s musical endeavors as a member of the band.Upon graduating from high school, I earned admission to The Ohio State University, where I pursued a degree in computer science. During this journey, spanning four years, I delved into UI/UX research and forged lasting friendships. My undergraduate experience at Ohio State has been immensely rewarding, affording me the privilege of connecting with exceptional individuals who have enriched my life in various ways.In my leisure time, I enjoy playing tennis and spending quality time with friends. Furthermore, I maintain an active lifestyle by engaging in outdoor activities, such as running 30 miles every week.Regarding companionship, I seek to work with a senior who shares my intellectual curiosity, ideally someone with a background in the realm of computer science. I aspire to build a relationship with a passionate individual capable of engaging in meaningful conversations, relishing the joys of learning, and savoring the moments we spend together. In return, I offer a promising partnership where we can collectively explore the ever-evolving landscape of innovation and knowledge.&quot;) or . = concat(&quot;Greetings, I&quot; , &quot;'&quot; , &quot;m Thomas Jackson, proudly calling Columbus, OH my hometown. My upbringing was rooted in modest beginnings; my father worked in a hospital, while my mother dedicated herself to nurturing our family as a devoted homemaker. In our household, there were two sisters and one brother. Financial resources were often scarce, but our family was rich in love. Our parents worked tirelessly, instilling essential values of morality, faith in God, and the importance of doing right by others.Education held a prominent place in my parents&quot; , &quot;'&quot; , &quot; aspirations, and they wholeheartedly encouraged me to complete both elementary and middle school. When the time came for high school, I attended East High, where I distinguished myself academically by embracing a challenging curriculum that included all available AP courses. In addition to my academic pursuits, I actively engaged in the policy debate team and contributed to the school&quot; , &quot;'&quot; , &quot;s musical endeavors as a member of the band.Upon graduating from high school, I earned admission to The Ohio State University, where I pursued a degree in computer science. During this journey, spanning four years, I delved into UI/UX research and forged lasting friendships. My undergraduate experience at Ohio State has been immensely rewarding, affording me the privilege of connecting with exceptional individuals who have enriched my life in various ways.In my leisure time, I enjoy playing tennis and spending quality time with friends. Furthermore, I maintain an active lifestyle by engaging in outdoor activities, such as running 30 miles every week.Regarding companionship, I seek to work with a senior who shares my intellectual curiosity, ideally someone with a background in the realm of computer science. I aspire to build a relationship with a passionate individual capable of engaging in meaningful conversations, relishing the joys of learning, and savoring the moments we spend together. In return, I offer a promising partnership where we can collectively explore the ever-evolving landscape of innovation and knowledge.&quot;))]</value>
+      <webElementGuid>66f4e629-a52d-451b-94f4-3b68b49e97f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

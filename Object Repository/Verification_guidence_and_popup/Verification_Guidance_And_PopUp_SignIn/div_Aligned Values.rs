@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Aligned Values</name>
+   <tag></tag>
+   <elementGuidId>d6b61325-004c-4a36-8b1e-50981ad307d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div[2]/div/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>519fb5df-eacb-44e8-97d2-63fb7d4cb8e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sub-header</value>
+      <webElementGuid>0d4f6751-b5d1-460a-88fc-a21856d291cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aligned Values</value>
+      <webElementGuid>9b04f781-d70e-4dab-be3f-70e25f7d9f8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container wrapper&quot;]/div[@class=&quot;main--container&quot;]/div[@class=&quot;row justify-content-between&quot;]/div[@class=&quot;col-12 col-md-6 read-card-container mx-auto mx-md-0 my-3 my-sm-0&quot;]/div[@class=&quot;row card-container-box&quot;]/div[@class=&quot;frame-33&quot;]/div[@class=&quot;div-2 row mx-auto&quot;]/div[@class=&quot;col-12 card-container p-0&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;sub-header&quot;]</value>
+      <webElementGuid>d1edbda5-7280-4022-8b2c-26f215a5bc68</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div[2]/div/div[2]/div/div/div</value>
+      <webElementGuid>5e333a06-2743-42bb-81f9-43f405bb1871</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div</value>
+      <webElementGuid>7042aa2c-f132-40e7-83cd-9b4e8dbc6963</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Aligned Values' or . = 'Aligned Values')]</value>
+      <webElementGuid>1dd15abf-4ef0-493e-a0c2-0c5f38dac555</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

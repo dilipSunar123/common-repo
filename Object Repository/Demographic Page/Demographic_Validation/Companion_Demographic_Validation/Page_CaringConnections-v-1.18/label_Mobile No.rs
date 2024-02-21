@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Mobile No</name>
+   <tag></tag>
+   <elementGuidId>a79f3fcf-80ce-49e9-89a1-73c7fa4043cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/form/div[3]/div/div[2]/div[6]/div/div/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.demographic-information-container-3 > div.row > div.col-sm-8.col-12 > div.col-12 > div.row > div.col-md-6.col-12 > div.row.pt-3 > div.col-sm-12.col-12 > label.demographic-form-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>d12341d3-7c5e-49ea-bcdc-65216fc2915f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>inputEmergencyMobileNumber</value>
+      <webElementGuid>051e6704-331a-493a-92b9-f8ec829990f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>demographic-form-label</value>
+      <webElementGuid>d4536135-424d-49c5-85ad-9a820b77303c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mobile No.*</value>
+      <webElementGuid>47020fad-4a58-4fe5-98a8-8560b6d434ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;demographic-container&quot;]/form[@class=&quot;row g-3&quot;]/div[@class=&quot;demographic-information-container-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8 col-12&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-12&quot;]/div[@class=&quot;row pt-3&quot;]/div[@class=&quot;col-sm-12 col-12&quot;]/label[@class=&quot;demographic-form-label&quot;]</value>
+      <webElementGuid>548eee9c-f5db-467d-8c3f-0665e9140ab1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/form/div[3]/div/div[2]/div[6]/div/div/div/div/label</value>
+      <webElementGuid>f35bf311-77a9-4576-b5b9-394096701915</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div/label</value>
+      <webElementGuid>8c0091bf-c502-4aad-a683-b4aa83c66ef2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Mobile No.*' or . = 'Mobile No.*')]</value>
+      <webElementGuid>808dadf0-5b88-4e16-ae3c-1547186dc88b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

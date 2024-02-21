@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Error_Please_Enter_A_Valid_Numeric_Year</name>
+   <tag></tag>
+   <elementGuidId>2a8126b2-c6eb-4fa6-88cc-d53d4348fe4e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/form/div/div/div[2]/div[2]/div/div/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-danger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1abb25a5-95d5-40f3-9cf9-18cfd5730a30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-danger</value>
+      <webElementGuid>913bf799-20ee-44b6-81b9-4271702c312f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please enter a valid numeric year.</value>
+      <webElementGuid>accad16f-3436-4365-bb4c-6e4790b1b258</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;demographic-container&quot;]/form[@class=&quot;row g-3&quot;]/div[@class=&quot;demographic-information-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8 col-12&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-12&quot;]/div[@class=&quot;row pt-3&quot;]/div[@class=&quot;col-sm-12 col-12&quot;]/span[@class=&quot;text-danger&quot;]</value>
+      <webElementGuid>d057c67b-e8e1-4d05-9bdb-405bfb58a03e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/form/div/div/div[2]/div[2]/div/div/div/div[2]/span</value>
+      <webElementGuid>5897fecc-d5bb-4cbd-83bb-eeaa072729e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>7ce26285-0e42-4f27-8148-e3415bfe55b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Please enter a valid numeric year.' or . = 'Please enter a valid numeric year.')]</value>
+      <webElementGuid>8aa80645-31df-4c59-b06f-e01123569b60</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

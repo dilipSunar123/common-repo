@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ErrorMsg_Invalid_email_address</name>
+   <tag></tag>
+   <elementGuidId>c7cf516a-b492-4ddc-b419-724fc7ec692f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/div/form/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.username-container > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f5d83f8a-d1d5-4324-a0cb-4243d1ee90a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invalid email address.</value>
+      <webElementGuid>50a168aa-c913-49a2-80ba-b891378026aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container wrapper&quot;]/div[@class=&quot;main--container&quot;]/div[@class=&quot;row justify-content-between&quot;]/div[@class=&quot;col-12 col-md-6 login-container mx-auto mx-md-0&quot;]/div[@class=&quot;login-sign-up--innercontainer&quot;]/div[@class=&quot;login-forget-container&quot;]/form[@class=&quot;w-100&quot;]/div[@class=&quot;sign-up-form-input-container&quot;]/div[@class=&quot;username-container&quot;]/span[1]</value>
+      <webElementGuid>97087e98-14bc-4f3e-8f31-7ab82af49030</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/div/form/div/div/span</value>
+      <webElementGuid>180299c9-023e-4215-be73-90ff678d4007</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>a30db5f4-6fec-4b11-a9ae-7f9513c6b3b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Invalid email address.' or . = 'Invalid email address.')]</value>
+      <webElementGuid>9e7f2f49-722a-4d19-8df0-a8d35893c8e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

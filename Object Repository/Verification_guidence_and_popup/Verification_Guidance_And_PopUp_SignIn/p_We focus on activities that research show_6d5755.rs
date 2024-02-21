@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_We focus on activities that research show_6d5755</name>
+   <tag></tag>
+   <elementGuidId>f8afe920-43e8-47e2-ba24-9531092e8efd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ac84e0f3-fc82-40c1-ae00-adbf2b2c6bef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>secondary-text</value>
+      <webElementGuid>a470605d-57c2-4cf1-ad6f-344b3001830c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>We focus on activities that research shows have the biggest long-term impacts on both physical and emotional health of Seniors</value>
+      <webElementGuid>74616a58-f244-49f4-9c81-e6e4de5c37e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container wrapper&quot;]/div[@class=&quot;main--container&quot;]/div[@class=&quot;row justify-content-between&quot;]/div[@class=&quot;col-12 col-md-6 read-card-container mx-auto mx-md-0 my-3 my-sm-0&quot;]/div[@class=&quot;row card-container-box&quot;]/div[@class=&quot;frame-33&quot;]/div[@class=&quot;div-2 row mx-auto&quot;]/div[@class=&quot;col-12 card-container p-0&quot;]/div[@class=&quot;secondary-container&quot;]/p[@class=&quot;secondary-text&quot;]</value>
+      <webElementGuid>d7d3a8a1-827c-4de0-8080-dde71f3ff371</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/p</value>
+      <webElementGuid>0e489512-049e-4f8d-9fb2-d9adf39b3b93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/p</value>
+      <webElementGuid>f0dcfa8d-4c78-4029-8e36-973cd6138d08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'We focus on activities that research shows have the biggest long-term impacts on both physical and emotional health of Seniors' or . = 'We focus on activities that research shows have the biggest long-term impacts on both physical and emotional health of Seniors')]</value>
+      <webElementGuid>a3371891-f59f-4c98-b4cd-1a437379aeaf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

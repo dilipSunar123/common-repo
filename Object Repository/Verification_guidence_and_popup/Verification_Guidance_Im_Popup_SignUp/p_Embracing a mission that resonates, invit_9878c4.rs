@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Embracing a mission that resonates, invit_9878c4</name>
+   <tag></tag>
+   <elementGuidId>566d861e-7b3b-4eae-95fd-c4a79be730e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div[2]/div/div[2]/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>b4b4a8b0-cd1b-4341-9c72-203d61403f8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>secondary-text</value>
+      <webElementGuid>bcd22719-d752-4db7-ba38-48e91958f70f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Embracing a mission that resonates, inviting all to provide and receive companionship rooted in empathy</value>
+      <webElementGuid>71035e4e-2f38-48c4-b55c-5df039048693</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container wrapper&quot;]/div[@class=&quot;main--container&quot;]/div[@class=&quot;row justify-content-between&quot;]/div[@class=&quot;col-12 col-md-6 read-card-container mx-auto mx-md-0 my-3 my-sm-0&quot;]/div[@class=&quot;row card-container-box&quot;]/div[@class=&quot;frame-33&quot;]/div[@class=&quot;div-2 row mx-auto&quot;]/div[@class=&quot;col-12 card-container p-0&quot;]/div[@class=&quot;secondary-container&quot;]/p[@class=&quot;secondary-text&quot;]</value>
+      <webElementGuid>7edeee0e-0fd7-4849-a54e-a8497f6e50d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div[2]/div/div[2]/div/div[2]/p</value>
+      <webElementGuid>889c1158-6254-44f5-929f-dca72ea9a920</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/p</value>
+      <webElementGuid>df3de0c4-9208-4d14-bd9e-fcc1644b255d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Embracing a mission that resonates, inviting all to provide and receive companionship rooted in empathy' or . = 'Embracing a mission that resonates, inviting all to provide and receive companionship rooted in empathy')]</value>
+      <webElementGuid>d4da4c87-bf6e-469d-aff4-3e6a2952f217</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

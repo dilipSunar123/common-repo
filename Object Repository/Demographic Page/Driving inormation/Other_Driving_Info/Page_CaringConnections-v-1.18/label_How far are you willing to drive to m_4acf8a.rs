@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_How far are you willing to drive to m_4acf8a</name>
+   <tag></tag>
+   <elementGuidId>2529d68e-c02b-4e60-aba5-78d37c5f5da1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/form/div[2]/div/div[2]/div[4]/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>e926e979-6277-4712-8688-1e466789f583</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>inputRangeDrive</value>
+      <webElementGuid>2cc8354b-559f-4b87-bc1e-fcfe0f9b5cd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>demographic-form-label</value>
+      <webElementGuid>48ddc8da-308d-4b6d-9e7f-30d4776c1916</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>How far are you willing to drive to meet up with seniors from your home?*</value>
+      <webElementGuid>37a982e5-267e-4247-94a1-2ddf22e9ea9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;demographic-container&quot;]/form[@class=&quot;row g-3&quot;]/div[@class=&quot;demographic-information-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8 col-12&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row pt-3&quot;]/div[@class=&quot;col-sm-12 col-12&quot;]/label[@class=&quot;demographic-form-label&quot;]</value>
+      <webElementGuid>86e8e455-3a65-49bf-a0ef-87ce938a603c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/form/div[2]/div/div[2]/div[4]/div/div/label</value>
+      <webElementGuid>b069a8bc-da48-4161-a640-269f18b20da2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div[4]/div/div/label</value>
+      <webElementGuid>7ccc49b9-1cca-4422-847d-9a5e48d94d40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'How far are you willing to drive to meet up with seniors from your home?*' or . = 'How far are you willing to drive to meet up with seniors from your home?*')]</value>
+      <webElementGuid>b903d189-38ae-49b9-8ac4-f3b928d6effa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Phone number is incomplete or invalid</name>
+   <tag></tag>
+   <elementGuidId>2ba62478-7b42-4cd2-ab08-ce46efdd0eef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/form/div[2]/div/div[2]/div[6]/div/div/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-danger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>79893456-b312-42dd-bcc2-a73afc209a25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-danger</value>
+      <webElementGuid>b038766f-014f-48a2-9556-409d9e7c5c90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Phone number is incomplete or invalid</value>
+      <webElementGuid>b8cf5124-7841-45eb-9d44-c6c695d07613</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;demographic-container&quot;]/form[@class=&quot;row g-3&quot;]/div[@class=&quot;demographic-information-container-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8 col-12&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-12&quot;]/div[@class=&quot;row pt-3&quot;]/div[@class=&quot;col-sm-12 col-12&quot;]/span[@class=&quot;text-danger&quot;]</value>
+      <webElementGuid>81735d7b-bcae-4123-95c2-a5ce041f75e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/form/div[2]/div/div[2]/div[6]/div/div/div/div[2]/span</value>
+      <webElementGuid>2cfd1c01-9c7f-4e7c-9d2f-56dfbb3fe18b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>c6909eb5-0aab-43d8-8288-8aa5d9d78de6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Phone number is incomplete or invalid' or . = 'Phone number is incomplete or invalid')]</value>
+      <webElementGuid>64eb6687-2bc3-41f6-94fb-e9f4751dd2fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

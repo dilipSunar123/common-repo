@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Fostering meaningful connections through _be736b</name>
+   <tag></tag>
+   <elementGuidId>99e06be5-ceb9-4ffb-83d9-f8232123b6b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.secondary-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>bf805211-6e17-4020-bb25-9e3db838b08f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>secondary-text</value>
+      <webElementGuid>9bc094c0-f8f1-4f00-a809-c5e9baf818b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Fostering meaningful connections through companionship, uniting individuals across generations to learn and grow together</value>
+      <webElementGuid>cf1a7d77-41e1-403f-9fdf-4979b6d6fb1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container wrapper&quot;]/div[@class=&quot;main--container&quot;]/div[@class=&quot;row justify-content-between&quot;]/div[@class=&quot;col-12 col-md-6 read-card-container mx-auto mx-md-0 my-3 my-sm-0&quot;]/div[@class=&quot;row card-container-box&quot;]/div[@class=&quot;frame-33&quot;]/div[@class=&quot;div-2 row mx-auto&quot;]/div[@class=&quot;col-12 card-container p-0&quot;]/div[@class=&quot;secondary-container&quot;]/p[@class=&quot;secondary-text&quot;]</value>
+      <webElementGuid>06ca8069-b009-4bb3-9e7d-b9f32fe9a74b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div[2]/div/div/div/div[2]/p</value>
+      <webElementGuid>819d2963-8bcf-4dda-8b8f-9907e4df85aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p</value>
+      <webElementGuid>06eb4c87-05dd-4dff-b31c-55945405dbc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Fostering meaningful connections through companionship, uniting individuals across generations to learn and grow together' or . = 'Fostering meaningful connections through companionship, uniting individuals across generations to learn and grow together')]</value>
+      <webElementGuid>2d3da97d-4152-4014-b335-8943a6a992b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

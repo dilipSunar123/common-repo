@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Example TexasNew YorkCaliforniaIllin_2d8614</name>
+   <tag></tag>
+   <elementGuidId>278f6ba5-3a51-49e0-a80b-c735fc385918</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//select[@id='inputState'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-sm-8.col-12 > div.col-12 > div.row.pt-3 > div.col-sm-12.col-12 > #inputState</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>12f008ea-d541-45c8-853d-3165621f9bd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> demographic-input</value>
+      <webElementGuid>f043423b-f7bc-4f11-8856-eba4e7726b01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>inputState</value>
+      <webElementGuid>44738c4f-d869-49cb-9665-ea407887ef58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>dlState</value>
+      <webElementGuid>a81a6d34-285e-429b-b50d-e293d2f16ad4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Example: TexasNew YorkCaliforniaIllinoisTexasPennsylvaniaArizonaFloridaIndianaOhioNorth CarolinaMichiganTennesseeMassachusettsWashingtonColoradoDistrict of ColumbiaMarylandKentuckyOregonOklahomaWisconsinNevadaNew MexicoMissouriVirginiaGeorgiaNebraskaMinnesotaKansasLouisianaHawaiiAlaskaNew JerseyIdahoAlabamaIowaArkansasUtahRhode IslandMississippiSouth DakotaConnecticutSouth CarolinaNew HampshireNorth DakotaMontanaDelawareMaineWyomingWest VirginiaVermont</value>
+      <webElementGuid>d7533bfc-ee1d-4302-97ee-da6a370ce6ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;demographic-container&quot;]/form[@class=&quot;row g-3&quot;]/div[@class=&quot;demographic-information-container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8 col-12&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row pt-3&quot;]/div[@class=&quot;col-sm-12 col-12&quot;]/select[@id=&quot;inputState&quot;]</value>
+      <webElementGuid>d7f0eb59-c51c-4ec7-a400-de84c763a4ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//select[@id='inputState'])[2]</value>
+      <webElementGuid>417768c4-68dc-46c9-aade-39c6183eb269</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/form/div[2]/div/div[2]/div[3]/div/div[2]/select</value>
+      <webElementGuid>57ae9771-f9ce-4d8f-8aed-fdef9d93ae1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/select</value>
+      <webElementGuid>4149fb1c-d3d1-4422-8d69-20754672bec3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'inputState' and @name = 'dlState' and (text() = 'Example: TexasNew YorkCaliforniaIllinoisTexasPennsylvaniaArizonaFloridaIndianaOhioNorth CarolinaMichiganTennesseeMassachusettsWashingtonColoradoDistrict of ColumbiaMarylandKentuckyOregonOklahomaWisconsinNevadaNew MexicoMissouriVirginiaGeorgiaNebraskaMinnesotaKansasLouisianaHawaiiAlaskaNew JerseyIdahoAlabamaIowaArkansasUtahRhode IslandMississippiSouth DakotaConnecticutSouth CarolinaNew HampshireNorth DakotaMontanaDelawareMaineWyomingWest VirginiaVermont' or . = 'Example: TexasNew YorkCaliforniaIllinoisTexasPennsylvaniaArizonaFloridaIndianaOhioNorth CarolinaMichiganTennesseeMassachusettsWashingtonColoradoDistrict of ColumbiaMarylandKentuckyOregonOklahomaWisconsinNevadaNew MexicoMissouriVirginiaGeorgiaNebraskaMinnesotaKansasLouisianaHawaiiAlaskaNew JerseyIdahoAlabamaIowaArkansasUtahRhode IslandMississippiSouth DakotaConnecticutSouth CarolinaNew HampshireNorth DakotaMontanaDelawareMaineWyomingWest VirginiaVermont')]</value>
+      <webElementGuid>972bbccb-cf31-4fc1-8b8d-eb31b35eb869</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

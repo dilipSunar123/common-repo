@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Senior_Speak" time="316.776" tests="2" failures="1" errors="0">
+   <testsuite name="Senior_Speak" tests="2" failures="1" errors="0" time="316.776" skipped="0" timestamp="08-02-2024T15:50:40" hostname="Dilip Sunar - 192.168.1.2" id="Test Suites/FunctionalTestSuites/Senior/Senior_Speak">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dilip Sunar\\git\\Automation_CaringConnection\\Reports\\20240208_155036\\FunctionalTestSuites\\Senior\\Senior_Speak\\20240208_155037"/>
+         <property name="logFiles" value="C:\\Users\\Dilip Sunar\\git\\Automation_CaringConnection\\Reports\\20240208_155036\\FunctionalTestSuites\\Senior\\Senior_Speak\\20240208_155037\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dilip Sunar\\git\\Automation_CaringConnection\\Reports\\20240208_155036\\FunctionalTestSuites\\Senior\\Senior_Speak\\20240208_155037\\1707387957411.png"/>
+         <property name="hostName" value="Dilip Sunar - 192.168.1.2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="38fc8d57012fae47dfdc0eee973f3431"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Senior_TestCases/TC02_CreateProfile_Speak" time="147.435" classname="Test Cases/Senior_TestCases/TC02_CreateProfile_Speak" status="PASSED">
+         <system-out><![CDATA[08-02-2024T15:50:41 - [TEST_CASE][PASSED] - Test Cases/Senior_TestCases/TC02_CreateProfile_Speak: Test Cases/Senior_TestCases/TC02_CreateProfile_Speak
+
+08-02-2024T15:50:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCases/Senior_SignUp"), ["username":UserName, "zipcode":ZipCode, "email":Email, "password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCases/Senior_SignUp' successfully
+
+08-02-2024T15:50:41 - [TEST_CASE][PASSED] - Test Cases/Common_TestCases/Senior_SignUp: Test Cases/Common_TestCases/Senior_SignUp
+
+08-02-2024T15:50:42 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "Data Files/chromedriver-win64/chromedriver.exe"): null
+
+08-02-2024T15:50:42 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+08-02-2024T15:50:42 - [TEST_STEP][PASSED] - options.addArguments("start-maximized"): null
+
+08-02-2024T15:50:42 - [TEST_STEP][PASSED] - options.addArguments("force-device-scale-factor=1.2"): null
+
+08-02-2024T15:50:42 - [TEST_STEP][PASSED] - options.setExperimentalOption("prefs", new Script1700728747795$1(this)): null
+
+08-02-2024T15:50:42 - [TEST_STEP][PASSED] - capabilities = DesiredCapabilities.chrome(): null
+
+08-02-2024T15:50:42 - [TEST_STEP][PASSED] - capabilities.setCapability(CAPABILITY, options): null
+
+08-02-2024T15:50:42 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities): null
+
+08-02-2024T15:50:43 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+08-02-2024T15:50:43 - [TEST_STEP][PASSED] - navigateToUrl("https://caring-connections-qa.azurewebsites.net/"): Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+08-02-2024T15:50:48 - [MESSAGE][PASSED] - Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+08-02-2024T15:50:48 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_In_Page/button_Sign_Up")): Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_Up' is clicked on
+
+08-02-2024T15:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_Up' is clicked on
+
+08-02-2024T15:50:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_First_Last_Name"), username): Text 'Sagar' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_First_Last_Name'
+
+08-02-2024T15:50:48 - [MESSAGE][PASSED] - Text 'Sagar' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_First_Last_Name'
+
+08-02-2024T15:50:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_ZIP_code"), zipcode): Text '462046' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_ZIP_code'
+
+08-02-2024T15:50:49 - [MESSAGE][PASSED] - Text '462046' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_ZIP_code'
+
+08-02-2024T15:50:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_Username"), email): Text 'ss132asweggatrss127@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Username'
+
+08-02-2024T15:50:49 - [MESSAGE][PASSED] - Text 'ss132asweggatrss127@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Username'
+
+08-02-2024T15:50:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_Password"), password): Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Password'
+
+08-02-2024T15:50:49 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Password'
+
+08-02-2024T15:50:49 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_Up_Page/button_role_Senior")): Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_role_Senior' is clicked on
+
+08-02-2024T15:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_role_Senior' is clicked on
+
+08-02-2024T15:50:49 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_Up_Page/button_Sign_Up")): Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_Sign_Up' is clicked on
+
+08-02-2024T15:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_Sign_Up' is clicked on
+
+08-02-2024T15:50:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCases/Senior_SignUp' successfully
+
+08-02-2024T15:50:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile"), 10): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile' is present
+
+08-02-2024T15:50:54 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile' is present
+
+08-02-2024T15:50:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited"), 10): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited' is present
+
+08-02-2024T15:50:54 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited' is present
+
+08-02-2024T15:50:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record"), 67): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clickable
+
+08-02-2024T15:51:43 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clickable
+
+08-02-2024T15:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clicked on
+
+08-02-2024T15:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clicked on
+
+08-02-2024T15:51:43 - [TEST_STEP][PASSED] - try: null
+
+08-02-2024T15:51:43 - [TEST_STEP][PASSED] - audioInputStream = AudioSystem.getAudioInputStream(new java.io.File(Data Files/ProfileAudio.wav)): null
+
+08-02-2024T15:51:43 - [TEST_STEP][PASSED] - clip = AudioSystem.getClip(): null
+
+08-02-2024T15:51:43 - [TEST_STEP][PASSED] - clip.open(audioInputStream): null
+
+08-02-2024T15:51:43 - [TEST_STEP][PASSED] - clip.start(): null
+
+08-02-2024T15:51:43 - [TEST_STEP][PASSED] - while (clip.isRunning()): null
+
+08-02-2024T15:51:43 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:44 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:45 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:46 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:47 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:48 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:49 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:50 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:51 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:52 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:53 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:54 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:55 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:56 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:57 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:58 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:51:59 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:52:00 - [TEST_STEP][PASSED] - clip.stop(): null
+
+08-02-2024T15:52:00 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop' is clicked on
+
+08-02-2024T15:52:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop' is clicked on
+
+08-02-2024T15:52:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+08-02-2024T15:52:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T15:52:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' successfully
+
+08-02-2024T15:52:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next"), 60): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clickable
+
+08-02-2024T15:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clickable
+
+08-02-2024T15:52:15 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+08-02-2024T15:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+08-02-2024T15:52:15 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+08-02-2024T15:52:35 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+08-02-2024T15:52:35 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/txt_1-2 minutes"), 180): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+08-02-2024T15:52:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+08-02-2024T15:52:36 - [TEST_STEP][PASSED] - Education = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'I'm a software engineer from Shillong.'
+
+08-02-2024T15:52:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'I'm a software engineer from Shillong.'
+
+08-02-2024T15:52:36 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EDUCATION", Education, EducationNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:52:36 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:52:36 - [TEST_STEP][PASSED] - FamilyAndCommunity = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement' is: ''
+
+08-02-2024T15:52:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement' is: ''
+
+08-02-2024T15:52:36 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("FAMILYANDCOMMUNITY", FamilyAndCommunity, FamilyAndCommunityNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:52:36 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:52:36 - [TEST_STEP][PASSED] - Hobbies = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'I like playing cricket. I like watching football. I like taking a walk in the park.'
+
+08-02-2024T15:52:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'I like playing cricket. I like watching football. I like taking a walk in the park.'
+
+08-02-2024T15:52:36 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("HOBBIES", Hobbies, HobbiesNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:52:36 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:52:36 - [TEST_STEP][PASSED] - Expectations = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'I have no expectation from companion.'
+
+08-02-2024T15:52:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'I have no expectation from companion.'
+
+08-02-2024T15:52:36 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EXPECTATIONS", Expectations, ExpectationsNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:52:36 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:52:36 - [TEST_STEP][PASSED] - Others = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Hi, I'm Danville. I have mild fever and I have asthma.'
+
+08-02-2024T15:52:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Hi, I'm Danville. I have mild fever and I have asthma.'
+
+08-02-2024T15:52:36 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("OTHERS", Others, OtherNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:52:36 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:52:36 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next"), 65): Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+08-02-2024T15:52:36 - [MESSAGE][PASSED] - Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+08-02-2024T15:52:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+08-02-2024T15:52:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+08-02-2024T15:52:38 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/Clock_categoryToCalender"), 10): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+08-02-2024T15:52:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+08-02-2024T15:52:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Calendar_page/Input_Start_Date"), 0): Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+08-02-2024T15:52:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T15:52:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+08-02-2024T15:52:41 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Start_Date")): Object: 'Object Repository/Calendar_page/Input_Start_Date' is clicked on
+
+08-02-2024T15:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Start_Date' is clicked on
+
+08-02-2024T15:52:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-02-2024T15:52:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-02-2024T15:52:46 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/startDate/JanuaryStartDates/div_20")): Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_20' is clicked on
+
+08-02-2024T15:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_20' is clicked on
+
+08-02-2024T15:52:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-02-2024T15:52:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-02-2024T15:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Busy_Days")): Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+08-02-2024T15:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+08-02-2024T15:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/startDate/JanuaryStartDates/div_23")): Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_23' is clicked on
+
+08-02-2024T15:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_23' is clicked on
+
+08-02-2024T15:52:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T15:52:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T15:52:51 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/startDate/JanuaryStartDates/div_24")): Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_24' is clicked on
+
+08-02-2024T15:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_24' is clicked on
+
+08-02-2024T15:52:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T15:52:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T15:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/div_day_Column")): Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+08-02-2024T15:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+08-02-2024T15:52:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_From"), "01:30 PM", false): All options with label '01:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+08-02-2024T15:52:54 - [MESSAGE][PASSED] - All options with label '01:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+08-02-2024T15:52:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T15:52:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T15:52:56 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_To"), "04:30 PM", false): All options with label '04:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+08-02-2024T15:52:56 - [MESSAGE][PASSED] - All options with label '04:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+08-02-2024T15:52:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T15:52:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T15:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Save")): Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+08-02-2024T15:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+08-02-2024T15:52:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T15:53:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T15:53:00 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Button_Next (1)")): Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+08-02-2024T15:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+08-02-2024T15:53:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-02-2024T15:53:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-02-2024T15:53:03 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Ok")): Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+08-02-2024T15:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+08-02-2024T15:53:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T15:53:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T15:53:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Senior_TestCases/TC06_SeniorDemographic"), ["UserName":UserName, "ZipCode":ZipCode, "Email":Email, "Password":Password, "EducationNew":EducationNew, "FamilyAndCommunityNew":FamilyAndCommunityNew, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Senior_TestCases/TC06_SeniorDemographic' successfully
+
+08-02-2024T15:53:05 - [TEST_CASE][PASSED] - Test Cases/Senior_TestCases/TC06_SeniorDemographic: Test Cases/Senior_TestCases/TC06_SeniorDemographic
+
+08-02-2024T15:53:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Demographic Page/Text_Personal Information"), 0, STOP_ON_FAILURE): Object 'Object Repository/Demographic Page/Text_Personal Information' is present
+
+08-02-2024T15:53:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T15:53:05 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/Text_Personal Information' is present
+
+08-02-2024T15:53:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Demographic Page/My Information/Text_My Information"), 0, STOP_ON_FAILURE): Object 'Object Repository/Demographic Page/My Information/Text_My Information' is present
+
+08-02-2024T15:53:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T15:53:05 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/My Information/Text_My Information' is present
+
+08-02-2024T15:53:05 - [TEST_STEP][PASSED] - NAME = getAttribute(findTestObject("Demographic Page/My Information/Input_Name"), "value"): Attribute 'value' of object 'Object Repository/Demographic Page/My Information/Input_Name' is: 'Sagar'
+
+08-02-2024T15:53:05 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Demographic Page/My Information/Input_Name' is: 'Sagar'
+
+08-02-2024T15:53:05 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("Name", NAME, UserName): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:53:05 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:53:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Demographic Page/My Information/Input__MobileNumber"), 0): Object 'Object Repository/Demographic Page/My Information/Input__MobileNumber' is present
+
+08-02-2024T15:53:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T15:53:06 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/My Information/Input__MobileNumber' is present
+
+08-02-2024T15:53:06 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input__MobileNumber"), mobile_no): Text '4589345023' is set on object 'Object Repository/Demographic Page/My Information/Input__MobileNumber'
+
+08-02-2024T15:53:06 - [MESSAGE][PASSED] - Text '4589345023' is set on object 'Object Repository/Demographic Page/My Information/Input__MobileNumber'
+
+08-02-2024T15:53:06 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input__BirthYear"), birth_year): Text '1974' is set on object 'Object Repository/Demographic Page/My Information/Input__BirthYear'
+
+08-02-2024T15:53:06 - [MESSAGE][PASSED] - Text '1974' is set on object 'Object Repository/Demographic Page/My Information/Input__BirthYear'
+
+08-02-2024T15:53:06 - [TEST_STEP][PASSED] - EMAIL = getAttribute(findTestObject("Demographic Page/My Information/Input_Email"), "value"): Attribute 'value' of object 'Object Repository/Demographic Page/My Information/Input_Email' is: 'ss132asweggatrss127@gmail.com'
+
+08-02-2024T15:53:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Demographic Page/My Information/Input_Email' is: 'ss132asweggatrss127@gmail.com'
+
+08-02-2024T15:53:06 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("Email", EMAIL, Email): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:53:06 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:53:06 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input__Address1"), address_1): Text 'Oak Lane 12' is set on object 'Object Repository/Demographic Page/My Information/Input__Address1'
+
+08-02-2024T15:53:06 - [MESSAGE][PASSED] - Text 'Oak Lane 12' is set on object 'Object Repository/Demographic Page/My Information/Input__Address1'
+
+08-02-2024T15:53:06 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input_Address2"), address_2): Text 'Oak Lane 12' is set on object 'Object Repository/Demographic Page/My Information/Input_Address2'
+
+08-02-2024T15:53:06 - [MESSAGE][PASSED] - Text 'Oak Lane 12' is set on object 'Object Repository/Demographic Page/My Information/Input_Address2'
+
+08-02-2024T15:53:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Demographic Page/My Information/Select_State"), "Texas", false): All options with label 'Texas' are selected in object 'Object Repository/Demographic Page/My Information/Select_State' 
+
+08-02-2024T15:53:06 - [MESSAGE][PASSED] - All options with label 'Texas' are selected in object 'Object Repository/Demographic Page/My Information/Select_State' 
+
+08-02-2024T15:53:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Demographic Page/My Information/Select_City"), "Houston", false): All options with label 'Houston' are selected in object 'Object Repository/Demographic Page/My Information/Select_City' 
+
+08-02-2024T15:53:06 - [MESSAGE][PASSED] - All options with label 'Houston' are selected in object 'Object Repository/Demographic Page/My Information/Select_City' 
+
+08-02-2024T15:53:06 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input__Zipcode"), ZipCode): Text '462046' is set on object 'Object Repository/Demographic Page/My Information/Input__Zipcode'
+
+08-02-2024T15:53:07 - [MESSAGE][PASSED] - Text '462046' is set on object 'Object Repository/Demographic Page/My Information/Input__Zipcode'
+
+08-02-2024T15:53:07 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyName"), emergency_name): Text 'Shri' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyName'
+
+08-02-2024T15:53:07 - [MESSAGE][PASSED] - Text 'Shri' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyName'
+
+08-02-2024T15:53:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_Relation"), "Family", false): All options with label 'Family' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_Relation' 
+
+08-02-2024T15:53:07 - [MESSAGE][PASSED] - All options with label 'Family' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_Relation' 
+
+08-02-2024T15:53:07 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyAddress"), emergency_address): Text 'Oak Lane 12' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyAddress'
+
+08-02-2024T15:53:07 - [MESSAGE][PASSED] - Text 'Oak Lane 12' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyAddress'
+
+08-02-2024T15:53:07 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input_Address Line 2 (Optional)_emergencyAddress2"), address_line2): Text 'Oak Lane 12' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input_Address Line 2 (Optional)_emergencyAddress2'
+
+08-02-2024T15:53:07 - [MESSAGE][PASSED] - Text 'Oak Lane 12' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input_Address Line 2 (Optional)_emergencyAddress2'
+
+08-02-2024T15:53:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_State"), "California", false): All options with label 'California' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_State' 
+
+08-02-2024T15:53:07 - [MESSAGE][PASSED] - All options with label 'California' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_State' 
+
+08-02-2024T15:53:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/SelectEC_City"), "Fresno", false): All options with label 'Fresno' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/SelectEC_City' 
+
+08-02-2024T15:53:07 - [MESSAGE][PASSED] - All options with label 'Fresno' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/SelectEC_City' 
+
+08-02-2024T15:53:07 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyZipcode"), emergency_zip_code): Text '462046' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyZipcode'
+
+08-02-2024T15:53:08 - [MESSAGE][PASSED] - Text '462046' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyZipcode'
+
+08-02-2024T15:53:08 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyMobileNumber"), emergency_mobile_no): Text '9402347189' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyMobileNumber'
+
+08-02-2024T15:53:08 - [MESSAGE][PASSED] - Text '9402347189' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyMobileNumber'
+
+08-02-2024T15:53:08 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input_Other No_emergencyOtherNumber"), emergency_other_no): Text '3456789200' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input_Other No_emergencyOtherNumber'
+
+08-02-2024T15:53:08 - [MESSAGE][PASSED] - Text '3456789200' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input_Other No_emergencyOtherNumber'
+
+08-02-2024T15:53:08 - [TEST_STEP][PASSED] - click(findTestObject("Demographic Page/Demographic_Validation/Senior_Demographic_Validation/Page_CaringConnections-v-1.18/button_Next")): Object: 'Object Repository/Demographic Page/Demographic_Validation/Senior_Demographic_Validation/Page_CaringConnections-v-1.18/button_Next' is clicked on
+
+08-02-2024T15:53:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Demographic Page/Demographic_Validation/Senior_Demographic_Validation/Page_CaringConnections-v-1.18/button_Next' is clicked on
+
+08-02-2024T15:53:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Senior_TestCases/TC06_SeniorDemographic' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Senior_TestCases/TC05_ReRecord_Speak" time="168.779" classname="Test Cases/Senior_TestCases/TC05_ReRecord_Speak" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Senior_TestCases/TC05_ReRecord_Speak FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)&#xa;	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:151)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1707387637840.run(TempTestSuite1707387637840.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27' located by '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[08-02-2024T15:53:08 - [TEST_CASE][FAILED] - Test Cases/Senior_TestCases/TC05_ReRecord_Speak: Test Cases/Senior_TestCases/TC05_ReRecord_Speak FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707387637840.run(TempTestSuite1707387637840.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27' located by '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+08-02-2024T15:53:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCases/Senior_Sign_In"), ["email":"", "password":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCases/Senior_Sign_In' successfully
+
+08-02-2024T15:53:09 - [TEST_CASE][PASSED] - Test Cases/Common_TestCases/Senior_Sign_In: Test Cases/Common_TestCases/Senior_Sign_In
+
+08-02-2024T15:53:09 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "Data Files/chromedriver-win64/chromedriver.exe"): null
+
+08-02-2024T15:53:09 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+08-02-2024T15:53:09 - [TEST_STEP][PASSED] - options.addArguments("start-maximized"): null
+
+08-02-2024T15:53:09 - [TEST_STEP][PASSED] - options.addArguments("force-device-scale-factor=1.2"): null
+
+08-02-2024T15:53:09 - [TEST_STEP][PASSED] - options.setExperimentalOption("prefs", new Script1707288331643$1(this)): null
+
+08-02-2024T15:53:09 - [TEST_STEP][PASSED] - capabilities = DesiredCapabilities.chrome(): null
+
+08-02-2024T15:53:09 - [TEST_STEP][PASSED] - capabilities.setCapability(CAPABILITY, options): null
+
+08-02-2024T15:53:09 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities): null
+
+08-02-2024T15:53:10 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+08-02-2024T15:53:10 - [TEST_STEP][PASSED] - navigateToUrl("https://caring-connections-qa.azurewebsites.net/"): Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+08-02-2024T15:53:15 - [MESSAGE][PASSED] - Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+08-02-2024T15:53:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_In_Page/input_Username"), "dilip@gmail.com"): Text 'dilip@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Username'
+
+08-02-2024T15:53:15 - [MESSAGE][PASSED] - Text 'dilip@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Username'
+
+08-02-2024T15:53:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_In_Page/input_Password"), "Test@123"): Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Password'
+
+08-02-2024T15:53:15 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Password'
+
+08-02-2024T15:53:15 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_In_Page/button_Sign_In")): Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_In' is clicked on
+
+08-02-2024T15:53:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_In' is clicked on
+
+08-02-2024T15:53:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCases/Senior_Sign_In' successfully
+
+08-02-2024T15:53:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+08-02-2024T15:53:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+08-02-2024T15:53:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Category_View_Page/Category_View_Page_Objects/button_Re-record"), 0): Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' successfully
+
+08-02-2024T15:53:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T15:53:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' successfully
+
+08-02-2024T15:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Category_View_Page/Category_View_Page_Objects/button_Re-record")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' is clicked on
+
+08-02-2024T15:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' is clicked on
+
+08-02-2024T15:53:23 - [TEST_STEP][PASSED] - click(findTestObject("Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord' is clicked on
+
+08-02-2024T15:53:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord' is clicked on
+
+08-02-2024T15:53:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record"), 67): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clickable
+
+08-02-2024T15:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clickable
+
+08-02-2024T15:54:15 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clicked on
+
+08-02-2024T15:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Click_Record' is clicked on
+
+08-02-2024T15:54:15 - [TEST_STEP][PASSED] - try: null
+
+08-02-2024T15:54:15 - [TEST_STEP][PASSED] - audioInputStream = AudioSystem.getAudioInputStream(new java.io.File(Data Files/ProfileAudio.wav)): null
+
+08-02-2024T15:54:15 - [TEST_STEP][PASSED] - clip = AudioSystem.getClip(): null
+
+08-02-2024T15:54:15 - [TEST_STEP][PASSED] - clip.open(audioInputStream): null
+
+08-02-2024T15:54:15 - [TEST_STEP][PASSED] - clip.start(): null
+
+08-02-2024T15:54:15 - [TEST_STEP][PASSED] - while (clip.isRunning()): null
+
+08-02-2024T15:54:15 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:16 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:17 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:18 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:19 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:20 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:21 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:22 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:23 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:24 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:25 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:26 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:27 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:28 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:29 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:30 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:31 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+08-02-2024T15:54:32 - [TEST_STEP][PASSED] - clip.stop(): null
+
+08-02-2024T15:54:32 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop' is clicked on
+
+08-02-2024T15:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Stop' is clicked on
+
+08-02-2024T15:54:32 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+08-02-2024T15:54:52 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+08-02-2024T15:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+08-02-2024T15:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_Next' is clicked on
+
+08-02-2024T15:54:52 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/txt_1-2 minutes"), 180): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/txt_1-2 minutes' located by 'By.xpath: //div[@id='root']/div/div/div/div/div/p[2]' is not present after '180' second(s)
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - Education = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'I'm a software engineer'
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'I'm a software engineer'
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EDUCATION", Education, EducationNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - FamilyAndCommunity = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement' is: ''
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement' is: ''
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("FAMILYANDCOMMUNITY", FamilyAndCommunity, FamilyAndCommunityNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - Hobbies = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'I like playing cricket. I like watching football. I like taking a walk in the park'
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'I like playing cricket. I like watching football. I like taking a walk in the park'
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("HOBBIES", Hobbies, HobbiesNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - Expectations = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'I have no expectation from companion'
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'I have no expectation from companion'
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EXPECTATIONS", Expectations, ExpectationsNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - Others = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Hi, I'm Danville. I'm from Shillong I have mild fever and I have asthma'
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Hi, I'm Danville. I'm from Shillong I have mild fever and I have asthma'
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("OTHERS", Others, OtherNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Category_View_Page/Category_View_Page_Objects/button_Next"), 65): Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+08-02-2024T15:55:12 - [MESSAGE][PASSED] - Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+08-02-2024T15:55:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+08-02-2024T15:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+08-02-2024T15:55:15 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/Clock_categoryToCalender"), 10): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+08-02-2024T15:55:15 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+08-02-2024T15:55:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Calendar_page/Input_Start_Date"), 0): Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+08-02-2024T15:55:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T15:55:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+08-02-2024T15:55:18 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Busy_Days")): Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+08-02-2024T15:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+08-02-2024T15:55:21 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/startDate/JanuaryStartDates/div_27")): Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27' is clicked on
+
+08-02-2024T15:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27' is clicked on
+
+08-02-2024T15:55:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T15:55:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T15:55:23 - [TEST_STEP][FAILED] - click(findTestObject("Calendar_page/startDate/JanuaryStartDates/div_27")): Unable to click on object 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707387637840.run(TempTestSuite1707387637840.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27' located by '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1701260651705.run(Script1701260651705.groovy:151)
+	... 15 more
+)
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-02-2024T15:55:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27'. Try using Self-healing.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div[4]/div[7]'.
+
+08-02-2024T15:55:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[(text() = '27' or . = '27')]'.
+
+08-02-2024T15:55:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = '27' or . = '27')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-02-2024T15:55:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.react-datepicker__day.react-datepicker__day--027.react-datepicker__day--weekend'. Please recheck the objects properties to make sure the desired element is located. 
+
+08-02-2024T15:55:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707387637840.run(TempTestSuite1707387637840.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27' located by '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at Script1701260651705.run(Script1701260651705.groovy:151)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\Dilip Sunar\\git\\Automation_CaringConnection\\Reports\\20240208_155036\\FunctionalTestSuites\\Senior\\Senior_Speak\\20240208_155037\\1707387957411.png]]]]></system-out>
+         <system-err><![CDATA[08-02-2024T15:53:08 - [TEST_CASE][FAILED] - Test Cases/Senior_TestCases/TC05_ReRecord_Speak: Test Cases/Senior_TestCases/TC05_ReRecord_Speak FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707387637840.run(TempTestSuite1707387637840.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27' located by '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-02-2024T15:50:40 - [TEST_SUITE][FAILED] - Senior_Speak: Test Cases/Senior_TestCases/TC05_ReRecord_Speak FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707387637840.run(TempTestSuite1707387637840.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27' located by '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[08-02-2024T15:50:40 - [TEST_SUITE][FAILED] - Senior_Speak: Test Cases/Senior_TestCases/TC05_ReRecord_Speak FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at TC05_ReRecord_Speak.run(TC05_ReRecord_Speak:151)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707387637840.run(TempTestSuite1707387637840.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_27' located by '//div[@id='root']/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

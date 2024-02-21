@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Privacy Policy</name>
+   <tag></tag>
+   <elementGuidId>b0f88a7d-c1d9-44e6-bc5b-3faf6065c438</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span:nth-of-type(2) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/div/form/div/div[6]/p/span[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5a595633-7d90-4534-b6b4-2242b5e59cf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.getcc.us/privacy-policy</value>
+      <webElementGuid>1625b732-10df-4ce1-920b-cb138e95dc8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>55b9b357-388b-43ac-b421-1f6347ed795b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noreferrer</value>
+      <webElementGuid>0d13066b-ade5-49b8-b82f-e660543ac946</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Privacy Policy</value>
+      <webElementGuid>46dea4c8-2e5c-4327-8096-1edc806a0e82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container wrapper&quot;]/div[@class=&quot;main--container&quot;]/div[@class=&quot;row justify-content-between&quot;]/div[@class=&quot;col-12 col-md-6 login-container mx-auto mx-md-0&quot;]/div[@class=&quot;login-sign-up--innercontainer&quot;]/div[@class=&quot;login-sign-up-container&quot;]/form[@class=&quot;w-100&quot;]/div[@class=&quot;sign-up-form-input-container&quot;]/div[@class=&quot;sign-in-botom-container2&quot;]/p[@class=&quot;sign-in-text2&quot;]/span[2]/a[1]</value>
+      <webElementGuid>04c5e380-f450-4156-bc0a-a602e938a4c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/div/form/div/div[6]/p/span[2]/a</value>
+      <webElementGuid>b5a48d73-a359-47e0-94e4-04abf4c3bc5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Privacy Policy')]</value>
+      <webElementGuid>0b206768-7ea4-4850-b298-1b6fe7912cef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://www.getcc.us/privacy-policy')])[2]</value>
+      <webElementGuid>20f1d8da-c23a-4d11-a50c-f685bdea81f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/a</value>
+      <webElementGuid>d8a62edc-7b91-44e8-beb9-343137626df3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.getcc.us/privacy-policy' and (text() = 'Privacy Policy' or . = 'Privacy Policy')]</value>
+      <webElementGuid>29b4ce5e-c643-44a2-91d4-601b020584c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

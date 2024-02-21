@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Companion_Type" time="275.269" tests="2" failures="0" errors="0">
+   <testsuite name="Companion_Type" tests="2" failures="0" errors="0" time="275.269" skipped="0" timestamp="08-02-2024T16:19:49" hostname="Dilip Sunar - 192.168.1.2" id="Test Suites/FunctionalTestSuites/Companion/Companion_Type">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dilip Sunar\\git\\Automation_CaringConnection\\Reports\\20240208_161945\\FunctionalTestSuites\\Companion\\Companion_Type\\20240208_161946"/>
+         <property name="logFiles" value="C:\\Users\\Dilip Sunar\\git\\Automation_CaringConnection\\Reports\\20240208_161945\\FunctionalTestSuites\\Companion\\Companion_Type\\20240208_161946\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dilip Sunar - 192.168.1.2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="2febb79f789394be888aa1f8307b11d6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Companion_TestCases/TC06_CreateProfile_Type" time="140.319" classname="Test Cases/Companion_TestCases/TC06_CreateProfile_Type" status="PASSED">
+         <system-out><![CDATA[08-02-2024T16:19:50 - [TEST_CASE][PASSED] - Test Cases/Companion_TestCases/TC06_CreateProfile_Type: Test Cases/Companion_TestCases/TC06_CreateProfile_Type
+
+08-02-2024T16:19:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCases/Companion_SignUp"), ["username":UserName, "zipcode":ZipCode, "email":Email, "password":Password], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCases/Companion_SignUp' successfully
+
+08-02-2024T16:19:50 - [TEST_CASE][PASSED] - Test Cases/Common_TestCases/Companion_SignUp: Test Cases/Common_TestCases/Companion_SignUp
+
+08-02-2024T16:19:50 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "Data Files/chromedriver-win64/chromedriver.exe"): null
+
+08-02-2024T16:19:50 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+08-02-2024T16:19:50 - [TEST_STEP][PASSED] - options.addArguments("start-maximized"): null
+
+08-02-2024T16:19:50 - [TEST_STEP][PASSED] - options.addArguments("force-device-scale-factor=1.2"): null
+
+08-02-2024T16:19:50 - [TEST_STEP][PASSED] - options.setExperimentalOption("prefs", new Script1700728747784$1(this)): null
+
+08-02-2024T16:19:50 - [TEST_STEP][PASSED] - capabilities = DesiredCapabilities.chrome(): null
+
+08-02-2024T16:19:50 - [TEST_STEP][PASSED] - capabilities.setCapability(CAPABILITY, options): null
+
+08-02-2024T16:19:51 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities): null
+
+08-02-2024T16:19:52 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+08-02-2024T16:19:52 - [TEST_STEP][PASSED] - navigateToUrl("https://caring-connections-qa.azurewebsites.net/"): Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+08-02-2024T16:19:57 - [MESSAGE][PASSED] - Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+08-02-2024T16:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_In_Page/button_Sign_Up")): Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_Up' is clicked on
+
+08-02-2024T16:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign_Up' is clicked on
+
+08-02-2024T16:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_First_Last_Name"), username): Text 'Emily' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_First_Last_Name'
+
+08-02-2024T16:19:58 - [MESSAGE][PASSED] - Text 'Emily' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_First_Last_Name'
+
+08-02-2024T16:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_ZIP_code"), zipcode): Text '464646' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_ZIP_code'
+
+08-02-2024T16:19:58 - [MESSAGE][PASSED] - Text '464646' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_ZIP_code'
+
+08-02-2024T16:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_Username"), email): Text 'emilye1111@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Username'
+
+08-02-2024T16:19:58 - [MESSAGE][PASSED] - Text 'emilye1111@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Username'
+
+08-02-2024T16:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_Up_Page/Input_Password"), password): Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Password'
+
+08-02-2024T16:19:58 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_Up_Page/Input_Password'
+
+08-02-2024T16:19:58 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_Up_Page/button_role_Companion")): Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_role_Companion' is clicked on
+
+08-02-2024T16:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_role_Companion' is clicked on
+
+08-02-2024T16:19:58 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_Up_Page/button_Sign_Up")): Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_Sign_Up' is clicked on
+
+08-02-2024T16:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_Up_Page/button_Sign_Up' is clicked on
+
+08-02-2024T16:19:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCases/Companion_SignUp' successfully
+
+08-02-2024T16:19:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Senior"), 0): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Senior' is present
+
+08-02-2024T16:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:20:04 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Expectations_From_Senior' is present
+
+08-02-2024T16:20:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile"), 0): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile' is present
+
+08-02-2024T16:20:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:20:04 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile' is present
+
+08-02-2024T16:20:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited"), 0): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited' is present
+
+08-02-2024T16:20:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:20:04 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Text_We are excited' is present
+
+08-02-2024T16:20:04 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type"), 65): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clickable
+
+08-02-2024T16:20:50 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clickable
+
+08-02-2024T16:20:50 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+08-02-2024T16:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+08-02-2024T16:20:50 - [TEST_STEP][PASSED] - setText(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type"), Profile): Text 'Hello, I'm Emily, an avid environmental enthusiast, celebrating my 28 years of existence. Armed with a Bachelor's degree in environmental science, I've dedicated the past six years to researching and advocating for sustainable agricultural practices. I have a joint family of 40 members. Beyond my scientific work, I find immense joy in expressing my creativity through painting, creating vibrant works of art that reflect the beauty of the natural world. In my quest for professional growth, I'm in search of a Senior who can offer valuable insights as I navigate the complex world of environmental research and advocacy. On a personal front, I prioritize a balanced lifestyle despite managing allergies, with a carefully planned diet and regular meditation sessions ensuring both my physical and mental well-being. ' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+08-02-2024T16:20:51 - [MESSAGE][PASSED] - Text 'Hello, I'm Emily, an avid environmental enthusiast, celebrating my 28 years of existence. Armed with a Bachelor's degree in environmental science, I've dedicated the past six years to researching and advocating for sustainable agricultural practices. I have a joint family of 40 members. Beyond my scientific work, I find immense joy in expressing my creativity through painting, creating vibrant works of art that reflect the beauty of the natural world. In my quest for professional growth, I'm in search of a Senior who can offer valuable insights as I navigate the complex world of environmental research and advocacy. On a personal front, I prioritize a balanced lifestyle despite managing allergies, with a carefully planned diet and regular meditation sessions ensuring both my physical and mental well-being. ' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+08-02-2024T16:20:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' successfully
+
+08-02-2024T16:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:20:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' successfully
+
+08-02-2024T16:20:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' is clicked on
+
+08-02-2024T16:20:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' is clicked on
+
+08-02-2024T16:20:51 - [TEST_STEP][PASSED] - delay(45): Delayed 45 second(s)
+
+08-02-2024T16:21:36 - [MESSAGE][PASSED] - Delayed 45 second(s)
+
+08-02-2024T16:21:36 - [TEST_STEP][PASSED] - Education = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'Armed with a Bachelor's degree in environmental science, I've dedicated the past six years to researching and advocating for sustainable agricultural practices.'
+
+08-02-2024T16:21:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'Armed with a Bachelor's degree in environmental science, I've dedicated the past six years to researching and advocating for sustainable agricultural practices.'
+
+08-02-2024T16:21:36 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EDUCATION", Education, EducationNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:21:36 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:21:36 - [TEST_STEP][PASSED] - FamilyAndCommunity = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement' is: 'I have a joint family of 40 members.'
+
+08-02-2024T16:21:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement' is: 'I have a joint family of 40 members.'
+
+08-02-2024T16:21:36 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("FAMILYANDCOMMUNITY", FamilyAndCommunity, FamilyAndCommunityNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:21:36 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:21:36 - [TEST_STEP][PASSED] - Hobbies = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'Beyond my scientific work, I find immense joy in expressing my creativity through painting, creating vibrant works of art that reflect the beauty of the natural world.'
+
+08-02-2024T16:21:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'Beyond my scientific work, I find immense joy in expressing my creativity through painting, creating vibrant works of art that reflect the beauty of the natural world.'
+
+08-02-2024T16:21:37 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("HOBBIES", Hobbies, HobbiesNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:21:37 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:21:37 - [TEST_STEP][PASSED] - Expectations = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'In my quest for professional growth, I'm in search of a Senior who can offer valuable insights as I navigate the complex world of environmental research and advocacy.'
+
+08-02-2024T16:21:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'In my quest for professional growth, I'm in search of a Senior who can offer valuable insights as I navigate the complex world of environmental research and advocacy.'
+
+08-02-2024T16:21:37 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EXPECTATIONS", Expectations, ExpectationsNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:21:37 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:21:37 - [TEST_STEP][PASSED] - Others = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Hello, I'm Emily, an avid environmental enthusiast, celebrating my 28 years of existence. On a personal front, I prioritize a balanced lifestyle despite managing allergies, with a carefully planned diet and regular meditation sessions ensuring both my physical and mental well-being.'
+
+08-02-2024T16:21:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Hello, I'm Emily, an avid environmental enthusiast, celebrating my 28 years of existence. On a personal front, I prioritize a balanced lifestyle despite managing allergies, with a carefully planned diet and regular meditation sessions ensuring both my physical and mental well-being.'
+
+08-02-2024T16:21:37 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("OTHERS", Others, OtherNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:21:37 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:21:37 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next"), 65): Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+08-02-2024T16:21:37 - [MESSAGE][PASSED] - Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+08-02-2024T16:21:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+08-02-2024T16:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+08-02-2024T16:21:39 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/Clock_categoryToCalender"), 10): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+08-02-2024T16:21:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+08-02-2024T16:21:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Calendar_page/Input_Start_Date"), 0): Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+08-02-2024T16:21:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:21:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+08-02-2024T16:21:41 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Start_Date")): Object: 'Object Repository/Calendar_page/Input_Start_Date' is clicked on
+
+08-02-2024T16:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Start_Date' is clicked on
+
+08-02-2024T16:21:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-02-2024T16:21:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-02-2024T16:21:44 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/startDate/JanuaryStartDates/div_20")): Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_20' is clicked on
+
+08-02-2024T16:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/startDate/JanuaryStartDates/div_20' is clicked on
+
+08-02-2024T16:21:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-02-2024T16:21:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-02-2024T16:21:47 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Busy_Days")): Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+08-02-2024T16:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+08-02-2024T16:21:47 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/busyDates/JanuaryBusyDate/div_23")): Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_23' is clicked on
+
+08-02-2024T16:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_23' is clicked on
+
+08-02-2024T16:21:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T16:21:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T16:21:49 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/busyDates/JanuaryBusyDate/div_24")): Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_24' is clicked on
+
+08-02-2024T16:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_24' is clicked on
+
+08-02-2024T16:21:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T16:21:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T16:21:51 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/div_day_Column")): Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+08-02-2024T16:21:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+08-02-2024T16:21:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_From"), "01:30 PM", false): All options with label '01:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+08-02-2024T16:21:52 - [MESSAGE][PASSED] - All options with label '01:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+08-02-2024T16:21:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T16:21:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T16:21:54 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_To"), "04:30 PM", false): All options with label '04:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+08-02-2024T16:21:54 - [MESSAGE][PASSED] - All options with label '04:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+08-02-2024T16:21:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T16:21:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T16:21:56 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Save")): Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+08-02-2024T16:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+08-02-2024T16:21:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T16:21:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T16:21:58 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Button_Next (1)")): Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+08-02-2024T16:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+08-02-2024T16:21:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-02-2024T16:22:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-02-2024T16:22:01 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Ok")): Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+08-02-2024T16:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+08-02-2024T16:22:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T16:22:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T16:22:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Companion_TestCases/TC10_Companion_Demographic"), ["UserName":UserName, "ZipCode":ZipCode, "Email":Email, "Password":Password, "Profile":Profile, "EducationNew":EducationNew, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Companion_TestCases/TC10_Companion_Demographic' successfully
+
+08-02-2024T16:22:03 - [TEST_CASE][PASSED] - Test Cases/Companion_TestCases/TC10_Companion_Demographic: Test Cases/Companion_TestCases/TC10_Companion_Demographic
+
+08-02-2024T16:22:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Demographic Page/Text_Personal Information"), 0, STOP_ON_FAILURE): Object 'Object Repository/Demographic Page/Text_Personal Information' is present
+
+08-02-2024T16:22:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:22:03 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/Text_Personal Information' is present
+
+08-02-2024T16:22:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Demographic Page/My Information/Text_My Information"), 0, STOP_ON_FAILURE): Object 'Object Repository/Demographic Page/My Information/Text_My Information' is present
+
+08-02-2024T16:22:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:22:03 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/My Information/Text_My Information' is present
+
+08-02-2024T16:22:03 - [TEST_STEP][PASSED] - NAME = getAttribute(findTestObject("Demographic Page/My Information/Input_Name"), "value"): Attribute 'value' of object 'Object Repository/Demographic Page/My Information/Input_Name' is: 'Emily'
+
+08-02-2024T16:22:04 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Demographic Page/My Information/Input_Name' is: 'Emily'
+
+08-02-2024T16:22:04 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("Name", NAME, UserName): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:22:04 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:22:04 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input__MobileNumber"), "9876543210"): Text '9876543210' is set on object 'Object Repository/Demographic Page/My Information/Input__MobileNumber'
+
+08-02-2024T16:22:04 - [MESSAGE][PASSED] - Text '9876543210' is set on object 'Object Repository/Demographic Page/My Information/Input__MobileNumber'
+
+08-02-2024T16:22:04 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input__BirthYear"), "1956"): Text '1956' is set on object 'Object Repository/Demographic Page/My Information/Input__BirthYear'
+
+08-02-2024T16:22:04 - [MESSAGE][PASSED] - Text '1956' is set on object 'Object Repository/Demographic Page/My Information/Input__BirthYear'
+
+08-02-2024T16:22:04 - [TEST_STEP][PASSED] - EMAIL = getAttribute(findTestObject("Demographic Page/My Information/Input_Email"), "value"): Attribute 'value' of object 'Object Repository/Demographic Page/My Information/Input_Email' is: 'emilye1111@gmail.com'
+
+08-02-2024T16:22:04 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Demographic Page/My Information/Input_Email' is: 'emilye1111@gmail.com'
+
+08-02-2024T16:22:04 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("Email", EMAIL, Email): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:22:04 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:22:04 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input__Address1"), "8888 Pin Oak Drive NY"): Text '8888 Pin Oak Drive NY' is set on object 'Object Repository/Demographic Page/My Information/Input__Address1'
+
+08-02-2024T16:22:04 - [MESSAGE][PASSED] - Text '8888 Pin Oak Drive NY' is set on object 'Object Repository/Demographic Page/My Information/Input__Address1'
+
+08-02-2024T16:22:04 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input_Address2"), "8888 Pin Oak Drive NY"): Text '8888 Pin Oak Drive NY' is set on object 'Object Repository/Demographic Page/My Information/Input_Address2'
+
+08-02-2024T16:22:04 - [MESSAGE][PASSED] - Text '8888 Pin Oak Drive NY' is set on object 'Object Repository/Demographic Page/My Information/Input_Address2'
+
+08-02-2024T16:22:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Demographic Page/My Information/Select_State"), "Texas", false): All options with label 'Texas' are selected in object 'Object Repository/Demographic Page/My Information/Select_State' 
+
+08-02-2024T16:22:04 - [MESSAGE][PASSED] - All options with label 'Texas' are selected in object 'Object Repository/Demographic Page/My Information/Select_State' 
+
+08-02-2024T16:22:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Demographic Page/My Information/Select_City"), "Houston", false): All options with label 'Houston' are selected in object 'Object Repository/Demographic Page/My Information/Select_City' 
+
+08-02-2024T16:22:05 - [MESSAGE][PASSED] - All options with label 'Houston' are selected in object 'Object Repository/Demographic Page/My Information/Select_City' 
+
+08-02-2024T16:22:05 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input__Zipcode"), "414141"): Text '414141' is set on object 'Object Repository/Demographic Page/My Information/Input__Zipcode'
+
+08-02-2024T16:22:05 - [MESSAGE][PASSED] - Text '414141' is set on object 'Object Repository/Demographic Page/My Information/Input__Zipcode'
+
+08-02-2024T16:22:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Demographic Page/Driving inormation/Text_Driving_Information"), 0, STOP_ON_FAILURE): Object 'Object Repository/Demographic Page/Driving inormation/Text_Driving_Information' is present
+
+08-02-2024T16:22:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:22:05 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/Driving inormation/Text_Driving_Information' is present
+
+08-02-2024T16:22:05 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/Driving inormation/Input__DLNumber"), "190000001"): Text '190000001' is set on object 'Object Repository/Demographic Page/Driving inormation/Input__DLNumber'
+
+08-02-2024T16:22:05 - [MESSAGE][PASSED] - Text '190000001' is set on object 'Object Repository/Demographic Page/Driving inormation/Input__DLNumber'
+
+08-02-2024T16:22:05 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/Driving inormation/Input__DLExpireDate (1)"), "01/03/2024"): Text '01/03/2024' is set on object 'Object Repository/Demographic Page/Driving inormation/Input__DLExpireDate (1)'
+
+08-02-2024T16:22:05 - [MESSAGE][PASSED] - Text '01/03/2024' is set on object 'Object Repository/Demographic Page/Driving inormation/Input__DLExpireDate (1)'
+
+08-02-2024T16:22:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/input_licensePlate"), "ABC-123"): Text 'ABC-123' is set on object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/input_licensePlate'
+
+08-02-2024T16:22:05 - [MESSAGE][PASSED] - Text 'ABC-123' is set on object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/input_licensePlate'
+
+08-02-2024T16:22:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/input_makeAndModel"), "Maruti Suzuki"): Text 'Maruti Suzuki' is set on object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/input_makeAndModel'
+
+08-02-2024T16:22:05 - [MESSAGE][PASSED] - Text 'Maruti Suzuki' is set on object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/input_makeAndModel'
+
+08-02-2024T16:22:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/select_Example TexasNew YorkCaliforniaIllin_2d8614"), "Ohio", false): All options with label 'Ohio' are selected in object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/select_Example TexasNew YorkCaliforniaIllin_2d8614' 
+
+08-02-2024T16:22:05 - [MESSAGE][PASSED] - All options with label 'Ohio' are selected in object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/select_Example TexasNew YorkCaliforniaIllin_2d8614' 
+
+08-02-2024T16:22:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/select_Example TexasNew YorkCaliforniaIllin_2d8614"), "Washington", false): All options with label 'Washington' are selected in object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/select_Example TexasNew YorkCaliforniaIllin_2d8614' 
+
+08-02-2024T16:22:06 - [MESSAGE][PASSED] - All options with label 'Washington' are selected in object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/select_Example TexasNew YorkCaliforniaIllin_2d8614' 
+
+08-02-2024T16:22:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/label_How far are you willing to drive to m_4acf8a"), 0): Object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/label_How far are you willing to drive to m_4acf8a' is present
+
+08-02-2024T16:22:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:22:06 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/label_How far are you willing to drive to m_4acf8a' is present
+
+08-02-2024T16:22:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Demographic Page/Driving inormation/input__driveRange (1)"), 0): Object 'Object Repository/Demographic Page/Driving inormation/input__driveRange (1)' is present
+
+08-02-2024T16:22:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:22:06 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/Driving inormation/input__driveRange (1)' is present
+
+08-02-2024T16:22:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/Text_Emergency_Contact"), 0): Object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Text_Emergency_Contact' is present
+
+08-02-2024T16:22:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:22:06 - [MESSAGE][PASSED] - Object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Text_Emergency_Contact' is present
+
+08-02-2024T16:22:06 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyName"), "Harsh Joshi"): Text 'Harsh Joshi' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyName'
+
+08-02-2024T16:22:06 - [MESSAGE][PASSED] - Text 'Harsh Joshi' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyName'
+
+08-02-2024T16:22:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_Relation"), "Spouse", false): All options with label 'Spouse' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_Relation' 
+
+08-02-2024T16:22:06 - [MESSAGE][PASSED] - All options with label 'Spouse' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_Relation' 
+
+08-02-2024T16:22:06 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyAddress"), "Ketting Road"): Text 'Ketting Road' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyAddress'
+
+08-02-2024T16:22:06 - [MESSAGE][PASSED] - Text 'Ketting Road' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyAddress'
+
+08-02-2024T16:22:06 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input_Address Line 2 (Optional)_emergencyAddress2"), "Police Bazar"): Text 'Police Bazar' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input_Address Line 2 (Optional)_emergencyAddress2'
+
+08-02-2024T16:22:06 - [MESSAGE][PASSED] - Text 'Police Bazar' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input_Address Line 2 (Optional)_emergencyAddress2'
+
+08-02-2024T16:22:06 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_State"), "Florida", false): All options with label 'Florida' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_State' 
+
+08-02-2024T16:22:07 - [MESSAGE][PASSED] - All options with label 'Florida' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_State' 
+
+08-02-2024T16:22:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/select_Select a city in MichiganDetroitGran_ff8a02"), "Tampa", false): All options with label 'Tampa' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/select_Select a city in MichiganDetroitGran_ff8a02' 
+
+08-02-2024T16:22:07 - [MESSAGE][PASSED] - All options with label 'Tampa' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/select_Select a city in MichiganDetroitGran_ff8a02' 
+
+08-02-2024T16:22:07 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyZipcode"), "444444"): Text '444444' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyZipcode'
+
+08-02-2024T16:22:07 - [MESSAGE][PASSED] - Text '444444' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyZipcode'
+
+08-02-2024T16:22:07 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyMobileNumber"), "+1 (887) 788-9900"): Text '+1 (887) 788-9900' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyMobileNumber'
+
+08-02-2024T16:22:07 - [MESSAGE][PASSED] - Text '+1 (887) 788-9900' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyMobileNumber'
+
+08-02-2024T16:22:07 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input_Other No_emergencyOtherNumber"), "+1 (776) 677-8899"): Text '+1 (776) 677-8899' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input_Other No_emergencyOtherNumber'
+
+08-02-2024T16:22:07 - [MESSAGE][PASSED] - Text '+1 (776) 677-8899' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input_Other No_emergencyOtherNumber'
+
+08-02-2024T16:22:07 - [TEST_STEP][PASSED] - click(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/button_Next")): Object: 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/button_Next' is clicked on
+
+08-02-2024T16:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/button_Next' is clicked on
+
+08-02-2024T16:22:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Companion_TestCases/TC10_Companion_Demographic' successfully
+
+08-02-2024T16:22:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T16:22:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Companion_TestCases/TC07_ReRecord_Type" time="134.232" classname="Test Cases/Companion_TestCases/TC07_ReRecord_Type" status="PASSED">
+         <system-out><![CDATA[08-02-2024T16:22:10 - [TEST_CASE][PASSED] - Test Cases/Companion_TestCases/TC07_ReRecord_Type: Test Cases/Companion_TestCases/TC07_ReRecord_Type
+
+08-02-2024T16:22:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common_TestCases/Companion_Sign_In"), ["email":"", "password":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common_TestCases/Companion_Sign_In' successfully
+
+08-02-2024T16:22:11 - [TEST_CASE][PASSED] - Test Cases/Common_TestCases/Companion_Sign_In: Test Cases/Common_TestCases/Companion_Sign_In
+
+08-02-2024T16:22:11 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "Data Files/chromedriver-win64/chromedriver.exe"): null
+
+08-02-2024T16:22:11 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+08-02-2024T16:22:11 - [TEST_STEP][PASSED] - options.addArguments("start-maximized"): null
+
+08-02-2024T16:22:11 - [TEST_STEP][PASSED] - options.addArguments("force-device-scale-factor=1.2"): null
+
+08-02-2024T16:22:11 - [TEST_STEP][PASSED] - options.setExperimentalOption("prefs", new Script1707288344669$1(this)): null
+
+08-02-2024T16:22:11 - [TEST_STEP][PASSED] - capabilities = DesiredCapabilities.chrome(): null
+
+08-02-2024T16:22:11 - [TEST_STEP][PASSED] - capabilities.setCapability(CAPABILITY, options): null
+
+08-02-2024T16:22:11 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(capabilities): null
+
+08-02-2024T16:22:12 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+08-02-2024T16:22:12 - [TEST_STEP][PASSED] - navigateToUrl("https://caring-connections-qa.azurewebsites.net/"): Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+08-02-2024T16:22:17 - [MESSAGE][PASSED] - Navigate to 'https://caring-connections-qa.azurewebsites.net/' successfully
+
+08-02-2024T16:22:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_In_Page/input_Username"), "ram@gmail.com"): Text 'ram@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Username'
+
+08-02-2024T16:22:17 - [MESSAGE][PASSED] - Text 'ram@gmail.com' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Username'
+
+08-02-2024T16:22:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Pages/Sign_In_Page/input_Password"), "Test@123"): Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Password'
+
+08-02-2024T16:22:17 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Login_Pages/Sign_In_Page/input_Password'
+
+08-02-2024T16:22:17 - [TEST_STEP][PASSED] - click(findTestObject("Login_Pages/Sign_In_Page/button_Sign In")): Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign In' is clicked on
+
+08-02-2024T16:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Pages/Sign_In_Page/button_Sign In' is clicked on
+
+08-02-2024T16:22:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common_TestCases/Companion_Sign_In' successfully
+
+08-02-2024T16:22:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+08-02-2024T16:22:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+08-02-2024T16:22:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record"), 0): Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' successfully
+
+08-02-2024T16:22:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:22:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' successfully
+
+08-02-2024T16:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' is clicked on
+
+08-02-2024T16:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Re-record' is clicked on
+
+08-02-2024T16:22:24 - [TEST_STEP][PASSED] - click(findTestObject("Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord' is clicked on
+
+08-02-2024T16:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/btn_Proceed_ReRecord' is clicked on
+
+08-02-2024T16:22:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type"), 65): Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clickable
+
+08-02-2024T16:23:13 - [MESSAGE][PASSED] - Object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clickable
+
+08-02-2024T16:23:13 - [TEST_STEP][PASSED] - click(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+08-02-2024T16:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/btn_I_Want_To_Type' is clicked on
+
+08-02-2024T16:23:13 - [TEST_STEP][PASSED] - setText(findTestObject("Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type"), Profile): Text 'Hello, I'm Emily, an avid environmental enthusiast, celebrating my 28 years of existence. Armed with a Bachelor's degree in environmental science, I've dedicated the past six years to researching and advocating for sustainable agricultural practices. I have a joint family of 40 members. Beyond my scientific work, I find immense joy in expressing my creativity through painting, creating vibrant works of art that reflect the beauty of the natural world. In my quest for professional growth, I'm in search of a Senior who can offer valuable insights as I navigate the complex world of environmental research and advocacy. On a personal front, I prioritize a balanced lifestyle despite managing allergies, with a carefully planned diet and regular meditation sessions ensuring both my physical and mental well-being. ' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+08-02-2024T16:23:14 - [MESSAGE][PASSED] - Text 'Hello, I'm Emily, an avid environmental enthusiast, celebrating my 28 years of existence. Armed with a Bachelor's degree in environmental science, I've dedicated the past six years to researching and advocating for sustainable agricultural practices. I have a joint family of 40 members. Beyond my scientific work, I find immense joy in expressing my creativity through painting, creating vibrant works of art that reflect the beauty of the natural world. In my quest for professional growth, I'm in search of a Senior who can offer valuable insights as I navigate the complex world of environmental research and advocacy. On a personal front, I prioritize a balanced lifestyle despite managing allergies, with a carefully planned diet and regular meditation sessions ensuring both my physical and mental well-being. ' is set on object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/Input_I_Want_To_Type'
+
+08-02-2024T16:23:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next"), 0): Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' successfully
+
+08-02-2024T16:23:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:23:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' successfully
+
+08-02-2024T16:23:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next")): Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' is clicked on
+
+08-02-2024T16:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Profile_Creation_Page/Profile_Creation_Page_Objects/button_Next' is clicked on
+
+08-02-2024T16:23:14 - [TEST_STEP][PASSED] - delay(45): Delayed 45 second(s)
+
+08-02-2024T16:23:59 - [MESSAGE][PASSED] - Delayed 45 second(s)
+
+08-02-2024T16:23:59 - [TEST_STEP][PASSED] - Education = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'Armed with a Bachelor's degree in environmental science, I've dedicated the past six years to researching and advocating for sustainable agricultural practices.'
+
+08-02-2024T16:23:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Educational_Info' is: 'Armed with a Bachelor's degree in environmental science, I've dedicated the past six years to researching and advocating for sustainable agricultural practices.'
+
+08-02-2024T16:23:59 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EDUCATION", Education, EducationNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:23:59 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:23:59 - [TEST_STEP][PASSED] - FamilyAndCommunity = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement' is: 'I have a joint family of 40 members.'
+
+08-02-2024T16:23:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Family_And_Community_Involvement' is: 'I have a joint family of 40 members.'
+
+08-02-2024T16:23:59 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("FAMILYANDCOMMUNITY", FamilyAndCommunity, FamilyAndCommunityNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:23:59 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:23:59 - [TEST_STEP][PASSED] - Hobbies = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'Beyond my scientific work, I find immense joy in expressing my creativity through painting, creating vibrant works of art that reflect the beauty of the natural world.'
+
+08-02-2024T16:23:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Hobbies' is: 'Beyond my scientific work, I find immense joy in expressing my creativity through painting, creating vibrant works of art that reflect the beauty of the natural world.'
+
+08-02-2024T16:23:59 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("HOBBIES", Hobbies, HobbiesNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:23:59 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:23:59 - [TEST_STEP][PASSED] - Expectations = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'In my quest for professional growth, I'm in search of a Senior who can offer valuable insights as I navigate the complex world of environmental research and advocacy.'
+
+08-02-2024T16:23:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_expectation' is: 'In my quest for professional growth, I'm in search of a Senior who can offer valuable insights as I navigate the complex world of environmental research and advocacy.'
+
+08-02-2024T16:23:59 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("EXPECTATIONS", Expectations, ExpectationsNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:23:59 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:23:59 - [TEST_STEP][PASSED] - Others = getAttribute(findTestObject("Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health"), "value"): Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Hello, I'm Emily, an avid environmental enthusiast, celebrating my 28 years of existence. On a personal front, I prioritize a balanced lifestyle despite managing allergies, with a carefully planned diet and regular meditation sessions ensuring both my physical and mental well-being.'
+
+08-02-2024T16:23:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Category_View_Page/Category_View_Page_Objects/Input_Edit_Appropriate_Health' is: 'Hello, I'm Emily, an avid environmental enthusiast, celebrating my 28 years of existence. On a personal front, I prioritize a balanced lifestyle despite managing allergies, with a carefully planned diet and regular meditation sessions ensuring both my physical and mental well-being.'
+
+08-02-2024T16:23:59 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("OTHERS", Others, OtherNew): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:23:59 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:23:59 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next"), 65): Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+08-02-2024T16:23:59 - [MESSAGE][PASSED] - Object 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clickable
+
+08-02-2024T16:23:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next")): Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+08-02-2024T16:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next' is clicked on
+
+08-02-2024T16:24:01 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("WaitingPage/Waiting_Page/Clock_categoryToCalender"), 10): Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+08-02-2024T16:24:03 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/WaitingPage/Waiting_Page/Clock_categoryToCalender' located by 'By.xpath: //div[@id='root']/div/div/div/div/span' is not present after '10' second(s)
+
+08-02-2024T16:24:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Calendar_page/Input_Start_Date"), 0): Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+08-02-2024T16:24:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:24:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Calendar_page/Input_Start_Date' successfully
+
+08-02-2024T16:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Input_Busy_Days")): Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+08-02-2024T16:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Input_Busy_Days' is clicked on
+
+08-02-2024T16:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/busyDates/JanuaryBusyDate/div_27")): Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_27' is clicked on
+
+08-02-2024T16:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_27' is clicked on
+
+08-02-2024T16:24:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T16:24:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T16:24:05 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/busyDates/JanuaryBusyDate/div_27")): Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_27' is clicked on
+
+08-02-2024T16:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_27' is clicked on
+
+08-02-2024T16:24:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T16:24:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T16:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/div_day_Column")): Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+08-02-2024T16:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/div_day_Column' is clicked on
+
+08-02-2024T16:24:07 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_From"), "05:30 PM", false): All options with label '05:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+08-02-2024T16:24:07 - [MESSAGE][PASSED] - All options with label '05:30 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_From' 
+
+08-02-2024T16:24:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T16:24:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T16:24:09 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Calendar_page/Select_Available_To"), "06:00 PM", false): All options with label '06:00 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+08-02-2024T16:24:10 - [MESSAGE][PASSED] - All options with label '06:00 PM' are selected in object 'Object Repository/Calendar_page/Select_Available_To' 
+
+08-02-2024T16:24:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T16:24:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T16:24:12 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Save")): Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+08-02-2024T16:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Save' is clicked on
+
+08-02-2024T16:24:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T16:24:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T16:24:14 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/Button_Next (1)")): Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+08-02-2024T16:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/Button_Next (1)' is clicked on
+
+08-02-2024T16:24:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+08-02-2024T16:24:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+08-02-2024T16:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Calendar_page/button_Ok")): Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+08-02-2024T16:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Calendar_page/button_Ok' is clicked on
+
+08-02-2024T16:24:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+08-02-2024T16:24:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+08-02-2024T16:24:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Companion_TestCases/TC10_Companion_Demographic"), ["UserName":"", "Email":Email, "Profile":Profile, "EducationNew":EducationNew, "FamilyAndCommunityNew":FamilyAndCommunityNew, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/Companion_TestCases/TC10_Companion_Demographic' successfully
+
+08-02-2024T16:24:19 - [TEST_CASE][PASSED] - Test Cases/Companion_TestCases/TC10_Companion_Demographic: Test Cases/Companion_TestCases/TC10_Companion_Demographic
+
+08-02-2024T16:24:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Demographic Page/Text_Personal Information"), 0, STOP_ON_FAILURE): Object 'Object Repository/Demographic Page/Text_Personal Information' is present
+
+08-02-2024T16:24:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:24:19 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/Text_Personal Information' is present
+
+08-02-2024T16:24:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Demographic Page/My Information/Text_My Information"), 0, STOP_ON_FAILURE): Object 'Object Repository/Demographic Page/My Information/Text_My Information' is present
+
+08-02-2024T16:24:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:24:19 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/My Information/Text_My Information' is present
+
+08-02-2024T16:24:19 - [TEST_STEP][PASSED] - NAME = getAttribute(findTestObject("Demographic Page/My Information/Input_Name"), "value"): Attribute 'value' of object 'Object Repository/Demographic Page/My Information/Input_Name' is: 'ram'
+
+08-02-2024T16:24:19 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Demographic Page/My Information/Input_Name' is: 'ram'
+
+08-02-2024T16:24:19 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("Name", NAME, UserName): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:24:19 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:24:19 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input__MobileNumber"), "9876543210"): Text '9876543210' is set on object 'Object Repository/Demographic Page/My Information/Input__MobileNumber'
+
+08-02-2024T16:24:19 - [MESSAGE][PASSED] - Text '9876543210' is set on object 'Object Repository/Demographic Page/My Information/Input__MobileNumber'
+
+08-02-2024T16:24:19 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input__BirthYear"), "1956"): Text '1956' is set on object 'Object Repository/Demographic Page/My Information/Input__BirthYear'
+
+08-02-2024T16:24:19 - [MESSAGE][PASSED] - Text '1956' is set on object 'Object Repository/Demographic Page/My Information/Input__BirthYear'
+
+08-02-2024T16:24:19 - [TEST_STEP][PASSED] - EMAIL = getAttribute(findTestObject("Demographic Page/My Information/Input_Email"), "value"): Attribute 'value' of object 'Object Repository/Demographic Page/My Information/Input_Email' is: 'ram@gmail.com'
+
+08-02-2024T16:24:19 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Demographic Page/My Information/Input_Email' is: 'ram@gmail.com'
+
+08-02-2024T16:24:19 - [TEST_STEP][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch("Email", EMAIL, Email): validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:24:19 - [MESSAGE][PASSED] - validateText.ValidateText.calculateAndPrintPercentageMatch is PASSED
+
+08-02-2024T16:24:19 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input__Address1"), "8888 Pin Oak Drive NY"): Text '8888 Pin Oak Drive NY' is set on object 'Object Repository/Demographic Page/My Information/Input__Address1'
+
+08-02-2024T16:24:20 - [MESSAGE][PASSED] - Text '8888 Pin Oak Drive NY' is set on object 'Object Repository/Demographic Page/My Information/Input__Address1'
+
+08-02-2024T16:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input_Address2"), "8888 Pin Oak Drive NY"): Text '8888 Pin Oak Drive NY' is set on object 'Object Repository/Demographic Page/My Information/Input_Address2'
+
+08-02-2024T16:24:20 - [MESSAGE][PASSED] - Text '8888 Pin Oak Drive NY' is set on object 'Object Repository/Demographic Page/My Information/Input_Address2'
+
+08-02-2024T16:24:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Demographic Page/My Information/Select_State"), "Texas", false): All options with label 'Texas' are selected in object 'Object Repository/Demographic Page/My Information/Select_State' 
+
+08-02-2024T16:24:20 - [MESSAGE][PASSED] - All options with label 'Texas' are selected in object 'Object Repository/Demographic Page/My Information/Select_State' 
+
+08-02-2024T16:24:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Demographic Page/My Information/Select_City"), "Houston", false): All options with label 'Houston' are selected in object 'Object Repository/Demographic Page/My Information/Select_City' 
+
+08-02-2024T16:24:20 - [MESSAGE][PASSED] - All options with label 'Houston' are selected in object 'Object Repository/Demographic Page/My Information/Select_City' 
+
+08-02-2024T16:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/My Information/Input__Zipcode"), "414141"): Text '414141' is set on object 'Object Repository/Demographic Page/My Information/Input__Zipcode'
+
+08-02-2024T16:24:20 - [MESSAGE][PASSED] - Text '414141' is set on object 'Object Repository/Demographic Page/My Information/Input__Zipcode'
+
+08-02-2024T16:24:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Demographic Page/Driving inormation/Text_Driving_Information"), 0, STOP_ON_FAILURE): Object 'Object Repository/Demographic Page/Driving inormation/Text_Driving_Information' is present
+
+08-02-2024T16:24:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:24:20 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/Driving inormation/Text_Driving_Information' is present
+
+08-02-2024T16:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/Driving inormation/Input__DLNumber"), "190000001"): Text '190000001' is set on object 'Object Repository/Demographic Page/Driving inormation/Input__DLNumber'
+
+08-02-2024T16:24:20 - [MESSAGE][PASSED] - Text '190000001' is set on object 'Object Repository/Demographic Page/Driving inormation/Input__DLNumber'
+
+08-02-2024T16:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("Demographic Page/Driving inormation/Input__DLExpireDate (1)"), "01/03/2024"): Text '01/03/2024' is set on object 'Object Repository/Demographic Page/Driving inormation/Input__DLExpireDate (1)'
+
+08-02-2024T16:24:20 - [MESSAGE][PASSED] - Text '01/03/2024' is set on object 'Object Repository/Demographic Page/Driving inormation/Input__DLExpireDate (1)'
+
+08-02-2024T16:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/input_licensePlate"), "ABC-123"): Text 'ABC-123' is set on object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/input_licensePlate'
+
+08-02-2024T16:24:20 - [MESSAGE][PASSED] - Text 'ABC-123' is set on object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/input_licensePlate'
+
+08-02-2024T16:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/input_makeAndModel"), "Maruti Suzuki"): Text 'Maruti Suzuki' is set on object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/input_makeAndModel'
+
+08-02-2024T16:24:21 - [MESSAGE][PASSED] - Text 'Maruti Suzuki' is set on object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/input_makeAndModel'
+
+08-02-2024T16:24:21 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/select_Example TexasNew YorkCaliforniaIllin_2d8614"), "Ohio", false): All options with label 'Ohio' are selected in object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/select_Example TexasNew YorkCaliforniaIllin_2d8614' 
+
+08-02-2024T16:24:21 - [MESSAGE][PASSED] - All options with label 'Ohio' are selected in object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/select_Example TexasNew YorkCaliforniaIllin_2d8614' 
+
+08-02-2024T16:24:21 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/select_Example TexasNew YorkCaliforniaIllin_2d8614"), "Washington", false): All options with label 'Washington' are selected in object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/select_Example TexasNew YorkCaliforniaIllin_2d8614' 
+
+08-02-2024T16:24:21 - [MESSAGE][PASSED] - All options with label 'Washington' are selected in object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/select_Example TexasNew YorkCaliforniaIllin_2d8614' 
+
+08-02-2024T16:24:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/label_How far are you willing to drive to m_4acf8a"), 0): Object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/label_How far are you willing to drive to m_4acf8a' is present
+
+08-02-2024T16:24:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/Driving inormation/Other_Driving_Info/Page_CaringConnections-v-1.18/label_How far are you willing to drive to m_4acf8a' is present
+
+08-02-2024T16:24:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Demographic Page/Driving inormation/input__driveRange (1)"), 0): Object 'Object Repository/Demographic Page/Driving inormation/input__driveRange (1)' is present
+
+08-02-2024T16:24:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/Demographic Page/Driving inormation/input__driveRange (1)' is present
+
+08-02-2024T16:24:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/Text_Emergency_Contact"), 0): Object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Text_Emergency_Contact' is present
+
+08-02-2024T16:24:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-02-2024T16:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Text_Emergency_Contact' is present
+
+08-02-2024T16:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyName"), "Harsh Joshi"): Text 'Harsh Joshi' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyName'
+
+08-02-2024T16:24:21 - [MESSAGE][PASSED] - Text 'Harsh Joshi' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyName'
+
+08-02-2024T16:24:21 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_Relation"), "Spouse", false): All options with label 'Spouse' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_Relation' 
+
+08-02-2024T16:24:21 - [MESSAGE][PASSED] - All options with label 'Spouse' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_Relation' 
+
+08-02-2024T16:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyAddress"), "Ketting Road"): Text 'Ketting Road' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyAddress'
+
+08-02-2024T16:24:21 - [MESSAGE][PASSED] - Text 'Ketting Road' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyAddress'
+
+08-02-2024T16:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input_Address Line 2 (Optional)_emergencyAddress2"), "Police Bazar"): Text 'Police Bazar' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input_Address Line 2 (Optional)_emergencyAddress2'
+
+08-02-2024T16:24:21 - [MESSAGE][PASSED] - Text 'Police Bazar' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input_Address Line 2 (Optional)_emergencyAddress2'
+
+08-02-2024T16:24:21 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_State"), "Florida", false): All options with label 'Florida' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_State' 
+
+08-02-2024T16:24:21 - [MESSAGE][PASSED] - All options with label 'Florida' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/Select_EC_State' 
+
+08-02-2024T16:24:21 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/select_Select a city in MichiganDetroitGran_ff8a02"), "Tampa", false): All options with label 'Tampa' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/select_Select a city in MichiganDetroitGran_ff8a02' 
+
+08-02-2024T16:24:21 - [MESSAGE][PASSED] - All options with label 'Tampa' are selected in object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/select_Select a city in MichiganDetroitGran_ff8a02' 
+
+08-02-2024T16:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyZipcode"), "444444"): Text '444444' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyZipcode'
+
+08-02-2024T16:24:22 - [MESSAGE][PASSED] - Text '444444' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyZipcode'
+
+08-02-2024T16:24:22 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyMobileNumber"), "+1 (887) 788-9900"): Text '+1 (887) 788-9900' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyMobileNumber'
+
+08-02-2024T16:24:22 - [MESSAGE][PASSED] - Text '+1 (887) 788-9900' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input__emergencyMobileNumber'
+
+08-02-2024T16:24:22 - [TEST_STEP][PASSED] - setText(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/input_Other No_emergencyOtherNumber"), "+1 (776) 677-8899"): Text '+1 (776) 677-8899' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input_Other No_emergencyOtherNumber'
+
+08-02-2024T16:24:22 - [MESSAGE][PASSED] - Text '+1 (776) 677-8899' is set on object 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/input_Other No_emergencyOtherNumber'
+
+08-02-2024T16:24:22 - [TEST_STEP][PASSED] - click(findTestObject("ECemergencyNew/Page_CaringConnections-v-1.17/button_Next")): Object: 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/button_Next' is clicked on
+
+08-02-2024T16:24:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ECemergencyNew/Page_CaringConnections-v-1.17/button_Next' is clicked on
+
+08-02-2024T16:24:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Companion_TestCases/TC10_Companion_Demographic' successfully
+
+08-02-2024T16:24:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-02-2024T16:24:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-02-2024T16:19:49 - [TEST_SUITE][PASSED] - Companion_Type: Test Cases/Companion_TestCases/TC07_ReRecord_Type]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

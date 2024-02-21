@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_27",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[7]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/div[4]/div[7]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240207_161040/RegressionTestSuites/Companion/Companion_Speak/20240207_161040/Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_27_position.png"
+    }
+  ]
+}

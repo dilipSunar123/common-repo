@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_1-2 minutes</name>
+   <tag></tag>
+   <elementGuidId>833735e9-46b6-4d52-99c6-a8eaa20b2c14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/p[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>9c88b17c-99be-4ea9-ba75-ec500b4cdf8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>spinner-text--category</value>
+      <webElementGuid>0a6bec37-3dcf-41fa-987c-e874a002ca0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This step typically takes 1-2 minutes.</value>
+      <webElementGuid>98d30df2-2ef8-4a46-8a96-ab7e0f8cbbf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;Spinner&quot;]/div[@class=&quot;spinner-children&quot;]/div[@class=&quot;spinner-text--container&quot;]/p[@class=&quot;spinner-text--category&quot;]</value>
+      <webElementGuid>922814ea-83e8-4343-b5ba-1a02bbf4c3a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/p[2]</value>
+      <webElementGuid>43e7930a-820a-4f90-94e0-ec7c7c77f8d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]</value>
+      <webElementGuid>ca8813a7-2cb3-49c3-89d9-35d952f24529</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'This step typically takes 1-2 minutes.' or . = 'This step typically takes 1-2 minutes.')]</value>
+      <webElementGuid>baa62794-af0a-4d52-8363-df8cd99c557f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
