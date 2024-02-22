@@ -29,16 +29,16 @@ WebUI.setEncryptedText(findTestObject('Login_Pages/Sign_In_Page/input_Password')
 
 WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Sign In'))
 
-WebUI.verifyElementPresent(findTestObject('null'), 0)
+WebUI.verifyElementPresent(findTestObject('Verification_guidence_and_popup/Verification_Profile_View/span_'), 0)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Verification_guidence_and_popup/Verification_Profile_View/button_Next'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/test/Page_CaringConnections-v-1.18/span_This field is required'), 
+WebUI.verifyElementPresent(findTestObject('Verification_guidence_and_popup/Verification_Profile_View/span_This field is required'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('null'), 0)
+WebUI.verifyElementPresent(findTestObject('Verification_guidence_and_popup/Verification_Profile_View/img'), 0)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Verification_guidence_and_popup/Verification_Profile_View/img'))
 
 WebUI.closeBrowser()
 

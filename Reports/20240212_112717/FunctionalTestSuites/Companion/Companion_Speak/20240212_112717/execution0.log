@@ -7718,3 +7718,4 @@ TC08_CreateProfile_Speak.run(TC08_CreateProfile_Speak:134)
   <property name="startLine">67</property>
   <property name="stepIndex">10</property>
 </record>
+</log>

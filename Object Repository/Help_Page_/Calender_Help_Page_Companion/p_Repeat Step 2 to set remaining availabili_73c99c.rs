@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Repeat Step 2 to set remaining availabili_73c99c</name>
+   <tag></tag>
+   <elementGuidId>2559bc68-4cd9-4826-8046-699ef6f7ec50</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[3]/div/div[2]/div/div[4]/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>14345b2d-a7b7-41c2-937d-58a993b8bed5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Repeat Step 2 to set remaining availability blocks in your calendar</value>
+      <webElementGuid>a734fc40-a300-4181-ae73-bb61349cb6cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;mt-2&quot;]/div[@class=&quot;questions-container row w-100&quot;]/div[@class=&quot;question-container row col-12 selected&quot;]/div[@class=&quot;answer col-6&quot;]/div[@class=&quot;answer-content&quot;]/div[@class=&quot;step-container&quot;]/div[@class=&quot;step-details&quot;]/p[1]</value>
+      <webElementGuid>29078f24-3a06-4317-82af-38c51b89072a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[3]/div/div[2]/div/div[4]/div[2]/p</value>
+      <webElementGuid>293d7ecb-fc7b-416d-94c9-ebc60a06f995</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/p</value>
+      <webElementGuid>3c5657b4-a8ed-4fc7-be7d-6de06a05eb7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Repeat Step 2 to set remaining availability blocks in your calendar' or . = 'Repeat Step 2 to set remaining availability blocks in your calendar')]</value>
+      <webElementGuid>646f820a-ae06-46bd-8097-9672d3469398</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

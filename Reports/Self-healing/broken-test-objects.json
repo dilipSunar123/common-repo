@@ -177,6 +177,36 @@
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/next_calender_view_test/Calender_Help_Page_Companion/svg_buttonFeature_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next",
+      "brokenLocator": "//button[@type\u003d\u0027submit\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_23",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/div[4]/div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_23_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_25",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[4]/div[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div[2]/div[4]/div[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_25_position.png"
     }
   ]
 }

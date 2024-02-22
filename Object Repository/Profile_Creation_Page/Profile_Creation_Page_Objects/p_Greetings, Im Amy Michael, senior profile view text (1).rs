@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Greetings, Im Amy Michael, senior profile view text (1)</name>
+   <tag></tag>
+   <elementGuidId>dadc0ed1-4f0b-4c77-a849-825f8fb2c6d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[3]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.modal-body-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d443253d-8d70-4ad2-9d78-f43ea1e30205</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-body-text</value>
+      <webElementGuid>43e58227-4cad-451f-bf90-0f3cbc4ce6a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Greetings, I'm Amy Michael, hailing from a quaint Iowa town. My upbringing was grounded in humble beginnings, my father toiled on the farm while my mother nurtured our family as a devoted homemaker. Among us were three sisters and two brothers. Financial resources were scarce yet love abounded within our household. Our parents admirably toiled hard, imparting invaluable virtues of morality, faith in God, and doing right by others.Education was a focal point for my parents, and they ardently encouraged me to complete both elementary and middle school. When it came time for high school, I relocated to the Des Moines area under the guardianship of one of my aunts. I enrolled at Valley High School, where I distinguished myself academically, undertaking a rigorous curriculum that included all available AP courses. Additionally, I actively participated in the debate team and served as the school newspaper's editor.Upon high school graduation, I secured admission to MIT as a pre-med student, embarking on a four year journey that involved Alzheimer's research and the cultivation of lasting friendships. My undergraduate journey at MIT culminated successfully, leading me to the University of Connecticut for medical school. Subsequently, I matched into the Ohio State University for my general surgery residency.As for my interests, I am an ardent reader, with a penchant for staying updated on medical advancements and research. Gardening also holds a special place in my heart, providing a therapeutic escape from my rigorous academic pursuits.In terms of companionship, I seek someone who approaches our interaction with intellectual curiosity, rather than mere sympathy for my senior status. Whether they hail from the medical field or not, I desire a passionate individual who can engage in meaningful conversations, share in the joys of learning, and appreciate quality time spent together. In return, I offer a promising partnership where we can mutually explore the ever-evolving landscape of innovation and knowledge.</value>
+      <webElementGuid>2d69b21a-93b2-455e-89c0-4fd00f8fd3ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;Modal-intro&quot;]/div[@class=&quot;modal-container&quot;]/div[@class=&quot;modal-text-container&quot;]/p[@class=&quot;modal-body-text&quot;]</value>
+      <webElementGuid>f35c86bf-4473-4b32-8bf4-49b7e556d178</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[3]/div/div/p</value>
+      <webElementGuid>642748a6-8a92-41db-850a-92af1b718143</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::p[2]</value>
+      <webElementGuid>b9c70099-1623-407b-9846-888ce5896382</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Voice Recorder'])[1]/following::p[3]</value>
+      <webElementGuid>74872f48-5d76-4540-81ab-7f21d5b1a71a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::p[1]</value>
+      <webElementGuid>4f70db5f-65f2-4644-833a-9aefe91a47fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[1]</value>
+      <webElementGuid>bb91fcf8-3b94-4d03-8139-42bc7b0f86d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/p</value>
+      <webElementGuid>327c5709-ed51-4a3d-979c-46ff3a85951c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = concat(&quot;Greetings, I&quot; , &quot;'&quot; , &quot;m Amy Michael, hailing from a quaint Iowa town. My upbringing was grounded in humble beginnings, my father toiled on the farm while my mother nurtured our family as a devoted homemaker. Among us were three sisters and two brothers. Financial resources were scarce yet love abounded within our household. Our parents admirably toiled hard, imparting invaluable virtues of morality, faith in God, and doing right by others.Education was a focal point for my parents, and they ardently encouraged me to complete both elementary and middle school. When it came time for high school, I relocated to the Des Moines area under the guardianship of one of my aunts. I enrolled at Valley High School, where I distinguished myself academically, undertaking a rigorous curriculum that included all available AP courses. Additionally, I actively participated in the debate team and served as the school newspaper&quot; , &quot;'&quot; , &quot;s editor.Upon high school graduation, I secured admission to MIT as a pre-med student, embarking on a four year journey that involved Alzheimer&quot; , &quot;'&quot; , &quot;s research and the cultivation of lasting friendships. My undergraduate journey at MIT culminated successfully, leading me to the University of Connecticut for medical school. Subsequently, I matched into the Ohio State University for my general surgery residency.As for my interests, I am an ardent reader, with a penchant for staying updated on medical advancements and research. Gardening also holds a special place in my heart, providing a therapeutic escape from my rigorous academic pursuits.In terms of companionship, I seek someone who approaches our interaction with intellectual curiosity, rather than mere sympathy for my senior status. Whether they hail from the medical field or not, I desire a passionate individual who can engage in meaningful conversations, share in the joys of learning, and appreciate quality time spent together. In return, I offer a promising partnership where we can mutually explore the ever-evolving landscape of innovation and knowledge.&quot;) or . = concat(&quot;Greetings, I&quot; , &quot;'&quot; , &quot;m Amy Michael, hailing from a quaint Iowa town. My upbringing was grounded in humble beginnings, my father toiled on the farm while my mother nurtured our family as a devoted homemaker. Among us were three sisters and two brothers. Financial resources were scarce yet love abounded within our household. Our parents admirably toiled hard, imparting invaluable virtues of morality, faith in God, and doing right by others.Education was a focal point for my parents, and they ardently encouraged me to complete both elementary and middle school. When it came time for high school, I relocated to the Des Moines area under the guardianship of one of my aunts. I enrolled at Valley High School, where I distinguished myself academically, undertaking a rigorous curriculum that included all available AP courses. Additionally, I actively participated in the debate team and served as the school newspaper&quot; , &quot;'&quot; , &quot;s editor.Upon high school graduation, I secured admission to MIT as a pre-med student, embarking on a four year journey that involved Alzheimer&quot; , &quot;'&quot; , &quot;s research and the cultivation of lasting friendships. My undergraduate journey at MIT culminated successfully, leading me to the University of Connecticut for medical school. Subsequently, I matched into the Ohio State University for my general surgery residency.As for my interests, I am an ardent reader, with a penchant for staying updated on medical advancements and research. Gardening also holds a special place in my heart, providing a therapeutic escape from my rigorous academic pursuits.In terms of companionship, I seek someone who approaches our interaction with intellectual curiosity, rather than mere sympathy for my senior status. Whether they hail from the medical field or not, I desire a passionate individual who can engage in meaningful conversations, share in the joys of learning, and appreciate quality time spent together. In return, I offer a promising partnership where we can mutually explore the ever-evolving landscape of innovation and knowledge.&quot;))]</value>
+      <webElementGuid>c6c0294f-30a2-4dc3-bdd6-94237c82309c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

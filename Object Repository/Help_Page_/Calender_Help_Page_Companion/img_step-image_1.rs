@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_step-image_1</name>
+   <tag></tag>
+   <elementGuidId>2751382b-c020-424b-9c43-7678f0078778</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>d4d78b65-e0f9-4f79-889a-9e76d637c346</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/media/Add Event 1.63d0ed0d4a8ae4cff9b5.png</value>
+      <webElementGuid>968de1ad-3a7c-478c-b1e0-dc70a8e418c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Step 2</value>
+      <webElementGuid>2e2ef197-3dff-4924-9388-88f6e838513d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>step-image</value>
+      <webElementGuid>40ef4dab-9cea-43a5-a28f-6eab1cf3f3a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;mt-2&quot;]/div[@class=&quot;questions-container row w-100&quot;]/div[@class=&quot;question-container row col-12 selected&quot;]/div[@class=&quot;answer col-6&quot;]/div[@class=&quot;answer-content&quot;]/div[@class=&quot;step-container&quot;]/div[@class=&quot;step-details&quot;]/img[@class=&quot;step-image&quot;]</value>
+      <webElementGuid>206d53ff-c421-436a-af6f-ca86b2eab764</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/img</value>
+      <webElementGuid>eab3cc2d-b21b-415a-9983-81080641b488</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Step 2']</value>
+      <webElementGuid>038b5bdf-1e83-42ac-8f45-039a29ca1933</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/img</value>
+      <webElementGuid>a8892794-9b7d-48e0-8cd8-60a4e3a54266</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/static/media/Add Event 1.63d0ed0d4a8ae4cff9b5.png' and @alt = 'Step 2']</value>
+      <webElementGuid>1ab709ec-f1dd-4487-a400-345d3e7a03df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Step 3</name>
+   <tag></tag>
+   <elementGuidId>fb112293-7b20-404e-a9b6-bc6fa0768d8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[3]/div/div[2]/div/div[4]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8b4a7b64-2436-4a51-b378-f5cfd1cf2325</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>step-number</value>
+      <webElementGuid>5c1d14aa-ea14-4b2d-9c07-6ed8417423cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Step 3:</value>
+      <webElementGuid>96e69a4a-dd1e-4255-bc7a-0a38e90149bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;body-side--container inner-wrapper&quot;]/div[@class=&quot;mt-2&quot;]/div[@class=&quot;questions-container row w-100&quot;]/div[@class=&quot;question-container row col-12 selected&quot;]/div[@class=&quot;answer col-6&quot;]/div[@class=&quot;answer-content&quot;]/div[@class=&quot;step-container&quot;]/div[@class=&quot;step-number&quot;]</value>
+      <webElementGuid>1fdf80f3-2120-44fc-8d5d-8a435d3af8cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[3]/div/div[2]/div/div[4]/div</value>
+      <webElementGuid>f6f232f0-c1d8-4af2-8181-6d0d24b8b882</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[4]/div</value>
+      <webElementGuid>f252294a-e544-4789-89fe-efe760381128</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Step 3:' or . = 'Step 3:')]</value>
+      <webElementGuid>f6dba90a-3f69-4980-8402-3ed048777555</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

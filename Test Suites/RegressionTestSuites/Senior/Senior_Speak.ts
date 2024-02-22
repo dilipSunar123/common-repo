@@ -15,7 +15,7 @@
       <guid>f320766f-a810-49ba-b8f0-111717562f1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Senior_TestCases/TC02_CreateProfile_Speak</testCaseId>
+      <testCaseId>Test Cases/Senior_TestCases/_Full_Flow/TC02_CreateProfile_Speak</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>410fe9e1-e0d1-40bc-ae7e-8d9401f67cbe</id>
@@ -151,7 +151,7 @@
       <guid>81c24774-3312-46d1-bfb7-2a32f01824e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Senior_TestCases/TC05_ReRecord_Speak</testCaseId>
+      <testCaseId>Test Cases/Senior_TestCases/_Full_Flow/TC05_ReRecord_Speak</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a505ccec-3793-4ed0-9e40-dd86ab347811</id>

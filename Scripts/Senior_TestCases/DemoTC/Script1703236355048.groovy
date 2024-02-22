@@ -158,7 +158,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Calendar_page/button_Ok'))
 
-WebUI.callTestCase(findTestCase('Senior_TestCases/TC06_SeniorDemographic'), [('name') : 'Palak', ('email') : 'luffy.pg1979@gmail.com'], 
+WebUI.callTestCase(findTestCase('Senior_TestCases/_Full_Flow/TC06_SeniorDemographic'), [('name') : 'Palak', ('email') : 'luffy.pg1979@gmail.com'], 
     FailureHandling.STOP_ON_FAILURE)
 
 //------------------------------------------------------------------------------------------------
