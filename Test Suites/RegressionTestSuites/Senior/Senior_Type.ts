@@ -22,7 +22,7 @@
          <masked>false</masked>
          <name>Profile</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/Senior_TestCases/_Full_Flow/TC01_CreateProfile_Type</testCaseId>
+      <testCaseId>Test Cases/Senior_TestCases/_Full_Flow/CreateProfile_Type</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6861c123-8a69-4eaf-a16a-57a2e853a609</id>
@@ -164,7 +164,7 @@
       <guid>144f4e99-e75f-43c1-b31b-a56c1730368a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Senior_TestCases/_Full_Flow/TC03_ReRecord_Type</testCaseId>
+      <testCaseId>Test Cases/Senior_TestCases/_Full_Flow/ReRecord_Type</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f9bba9a6-7cc2-473b-8ebc-d27a14f09254</id>

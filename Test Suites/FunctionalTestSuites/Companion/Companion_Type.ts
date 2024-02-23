@@ -15,7 +15,7 @@
       <guid>5ab5801c-d827-43ae-95a4-c3018bcfb4d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Companion_TestCases/_Full_Flow/TC06_CreateProfile_Type</testCaseId>
+      <testCaseId>Test Cases/Companion_TestCases/_Full_Flow/CreateProfile_Type</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>23adf7a9-efb6-4c3a-ab5c-0aa094f683e7</id>
@@ -175,7 +175,7 @@
       <guid>5a60ed28-051d-4add-9024-c7342db3a731</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Companion_TestCases/_Full_Flow/TC07_ReRecord_Type</testCaseId>
+      <testCaseId>Test Cases/Companion_TestCases/_Full_Flow/ReRecord_Type</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a5737185-0d83-4504-99e7-28f78f65d9f9</id>
