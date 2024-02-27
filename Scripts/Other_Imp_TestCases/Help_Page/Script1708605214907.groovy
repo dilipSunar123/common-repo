@@ -37,58 +37,58 @@ WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Help_Page_/Calender_Help_Page_Companion/input_username'), 'raju23@gmail.com')
+WebUI.setText(findTestObject('Help_Page/Calender_Help_Page_Companion/input_username'), 'raju23@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Help_Page_/Calender_Help_Page_Companion/input_password'), 'QmrIyMB454Sq0s0w1zzgnQ==')
+WebUI.setEncryptedText(findTestObject('Help_Page/Calender_Help_Page_Companion/input_password'), 'QmrIyMB454Sq0s0w1zzgnQ==')
 
-WebUI.click(findTestObject('Help_Page_/Calender_Help_Page_Companion/button_Sign In'))
+WebUI.click(findTestObject('Help_Page/Calender_Help_Page_Companion/button_Sign In'))
 
 WebUI.scrollToElement(findTestObject('Category_View_Page/Category_View_Page_Objects/button_Next'), 0)
 
 WebUI.click(findTestObject('Category_View_Page/Category_View_Page_Objects/button_Next'))
 
-WebUI.scrollToElement(findTestObject('Help_Page_/Calender_Help_Page_Companion/button_Help'), 0)
+WebUI.scrollToElement(findTestObject('Help_Page/Calender_Help_Page_Companion/button_Help'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Help_Page_/Calender_Help_Page_Companion/button_Help'), 0)
+WebUI.verifyElementPresent(findTestObject('Help_Page/Calender_Help_Page_Companion/button_Help'), 0)
 
-WebUI.click(findTestObject('Help_Page_/Calender_Help_Page_Companion/button_Help'))
+WebUI.click(findTestObject('Help_Page/Calender_Help_Page_Companion/button_Help'))
 
-WebUI.verifyElementPresent(findTestObject('Help_Page_/Calender_Help_Page_Companion/h3_Need Help in calendar Weve got your back (1)'), 
+WebUI.verifyElementPresent(findTestObject('Help_Page/Calender_Help_Page_Companion/h3_Need Help in calendar Weve got your back (1)'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Help_Page_/Calender_Help_Page_Companion/p_You can find the answer in our collections'), 
+WebUI.verifyElementPresent(findTestObject('Help_Page/Calender_Help_Page_Companion/p_You can find the answer in our collections'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Help_Page_/Calender_Help_Page_Companion/img_help-image'), 0)
+WebUI.verifyElementPresent(findTestObject('Help_Page/Calender_Help_Page_Companion/img_help-image'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Help_Page_/Calender_Help_Page_Companion/span_How do I show my availability to provi_971f37'), 
+WebUI.verifyElementPresent(findTestObject('Help_Page/Calender_Help_Page_Companion/span_How do I show my availability to provi_971f37'), 
     0)
 
-WebUI.click(findTestObject('Help_Page_/Calender_Help_Page_Companion/svg_buttonFeature'))
+WebUI.click(findTestObject('Help_Page/Calender_Help_Page_Companion/svg_buttonFeature'))
 
-WebUI.verifyElementPresent(findTestObject('Help_Page_/Calender_Help_Page_Companion/span_How do I show my availability to provi_971f37'), 
+WebUI.verifyElementPresent(findTestObject('Help_Page/Calender_Help_Page_Companion/span_How do I show my availability to provi_971f37'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Help_Page_/Calender_Help_Page_Companion/img_step-image'), 0)
+WebUI.verifyElementPresent(findTestObject('Help_Page/Calender_Help_Page_Companion/img_step-image'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Help_Page_/Calender_Help_Page_Companion/p_A pop-up window will appear for you to en_799693'), 
+WebUI.verifyElementPresent(findTestObject('Help_Page/Calender_Help_Page_Companion/p_A pop-up window will appear for you to en_799693'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Help_Page_/Calender_Help_Page_Companion/img_step-image_1'), 0)
+WebUI.verifyElementPresent(findTestObject('Help_Page/Calender_Help_Page_Companion/img_step-image_1'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Help_Page_/Calender_Help_Page_Companion/p_Repeat Step 2 to set remaining availabili_73c99c'), 
+WebUI.verifyElementPresent(findTestObject('Help_Page/Calender_Help_Page_Companion/p_Repeat Step 2 to set remaining availabili_73c99c'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Help_Page_/Calender_Help_Page_Companion/svg_concat(Need Help in calendar We, , ve got your back)_buttonFeature'), 
+WebUI.verifyElementPresent(findTestObject('Help_Page/Calender_Help_Page_Companion/svg_concat(Need Help in calendar We, , ve got your back)_buttonFeature'), 
     0)
 
-WebUI.click(findTestObject('Help_Page_/Calender_Help_Page_Companion/svg_concat(Need Help in calendar We, , ve got your back)_buttonFeature'))
+WebUI.click(findTestObject('Help_Page/Calender_Help_Page_Companion/svg_concat(Need Help in calendar We, , ve got your back)_buttonFeature'))
 
-WebUI.click(findTestObject('Help_Page_/Calender_Help_Page_Companion/button_Help'))
+WebUI.click(findTestObject('Help_Page/Calender_Help_Page_Companion/button_Help'))
 
-WebUI.verifyElementPresent(findTestObject('Help_Page_/Calender_Help_Page_Companion/img'), 0)
+WebUI.verifyElementPresent(findTestObject('Help_Page/Calender_Help_Page_Companion/img'), 0)
 
-WebUI.click(findTestObject('Help_Page_/Calender_Help_Page_Companion/img'))
+WebUI.click(findTestObject('Help_Page/Calender_Help_Page_Companion/img'))
 
 WebUI.closeBrowser()
 

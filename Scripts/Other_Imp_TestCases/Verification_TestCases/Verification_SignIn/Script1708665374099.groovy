@@ -23,58 +23,58 @@ WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/p_Guidance for starting'), 
+WebUI.verifyElementPresent(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/p_Guidance for starting'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/img'), 0)
+WebUI.verifyElementPresent(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/img'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/button_Read Now'), 
+WebUI.verifyElementPresent(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/button_Read Now'), 
     0)
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/button_Read Now'))
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/button_Read Now'))
 
-WebUI.verifyElementPresent(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/button_btn text-primary button-position-modal'), 
+WebUI.verifyElementPresent(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/button_btn text-primary button-position-modal'), 
     0)
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/button_btn text-primary button-position-modal'))
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/button_btn text-primary button-position-modal'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/span_'))
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/span_'))
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/span_'))
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/span_'))
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/a_Terms of use'))
-
-WebUI.switchToWindowTitle('CaringConnections-v-1.18')
-
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/a_Privacy Policy'))
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/a_Terms of use'))
 
 WebUI.switchToWindowTitle('CaringConnections-v-1.18')
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/div_Shared Purpose'))
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/a_Privacy Policy'))
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/p_Fostering meaningful connections through _be736b'))
+WebUI.switchToWindowTitle('CaringConnections-v-1.18')
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/div_Impact'))
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/div_Shared Purpose'))
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/p_We focus on activities that research show_6d5755'))
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/p_Fostering meaningful connections through _be736b'))
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/div_Aligned Values'))
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/div_Impact'))
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/p_Embracing a mission that resonates, invit_9878c4'))
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/p_We focus on activities that research show_6d5755'))
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/div_Inclusive'))
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/div_Aligned Values'))
 
-WebUI.click(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/p_Welcoming diverse individuals to join our_80a27e'))
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/p_Embracing a mission that resonates, invit_9878c4'))
 
-WebUI.verifyElementPresent(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/div_Dont you have an account Sign Up'), 
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/div_Inclusive'))
+
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/p_Welcoming diverse individuals to join our_80a27e'))
+
+WebUI.verifyElementPresent(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/div_Dont you have an account Sign Up'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/button_Sign In'), 
+WebUI.verifyElementPresent(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/button_Sign In'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Verification_guidence_and_popup/Page_CaringConnections-v-1.18/button_Sign Up'), 
+WebUI.verifyElementPresent(findTestObject('Verification_Guidence_And_Popup/Page_CaringConnections-v-1.18/button_Sign Up'), 
     0)
 
 WebUI.closeBrowser()
