@@ -31,31 +31,27 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
-//
-//System.setProperty('webdriver.chrome.driver', 'Data Files/chromedriver-win64/chromedriver.exe')
-//
-//ChromeOptions options = new ChromeOptions()
-//
-//options.addArguments('start-maximized')
-//
-////Set preferences to allow microphone access
-////options.setExperimentalOption("prefs",
-////	new HashMap<String, Object>() {{
-////		put("profile.default_content_setting_values.media_stream_mic", 1);
-////	}}
-////);
-//// Set preferences to allow microphone access
-//DesiredCapabilities capabilities = DesiredCapabilities.chrome()
-//
-//capabilities.setCapability(ChromeOptions.CAPABILITY, options)
-//
-//WebDriver driver = new ChromeDriver(capabilities)
-//
-//// Assuming you are using the Katalon Framework for the following lines
-//DriverFactory.changeWebDriver(driver)
-//Open Browser
-//WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
-WebUI.openBrowser('https://caring-connections-qa.azurewebsites.net/')
+System.setProperty('webdriver.chrome.driver', 'Data Files/chromedriver-win64/chromedriver.exe')
+
+ChromeOptions options = new ChromeOptions()
+
+options.addArguments('start-maximized')
+
+options.addArguments('force-device-scale-factor=1.2')
+
+// Set preferences to allow microphone access
+DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+
+capabilities.setCapability(ChromeOptions.CAPABILITY, options)
+
+WebDriver driver = new ChromeDriver(capabilities)
+
+// Assuming you are using the Katalon Framework for the following lines
+DriverFactory.changeWebDriver(driver)
+
+WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
+
+WebUI.maximizeWindow()
 
 WebUI.verifyElementPresent(findTestObject('Login_Pages/Forgot_Password_Page/a_Change password'), 0)
 

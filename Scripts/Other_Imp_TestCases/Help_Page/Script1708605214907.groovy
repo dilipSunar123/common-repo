@@ -31,7 +31,23 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
-WebUI.openBrowser('')
+System.setProperty('webdriver.chrome.driver', 'Data Files/chromedriver-win64/chromedriver.exe')
+
+ChromeOptions options = new ChromeOptions()
+
+options.addArguments('start-maximized')
+
+options.addArguments('force-device-scale-factor=1.2')
+
+// Set preferences to allow microphone access
+DesiredCapabilities capabilities = DesiredCapabilities.chrome()
+
+capabilities.setCapability(ChromeOptions.CAPABILITY, options)
+
+WebDriver driver = new ChromeDriver(capabilities)
+
+// Assuming you are using the Katalon Framework for the following lines
+DriverFactory.changeWebDriver(driver)
 
 WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
 
@@ -43,9 +59,11 @@ WebUI.setEncryptedText(findTestObject('Help_Page/Calender_Help_Page_Companion/in
 
 WebUI.click(findTestObject('Help_Page/Calender_Help_Page_Companion/button_Sign In'))
 
-WebUI.scrollToElement(findTestObject('Category_View_Page/Category_View_Page_Objects/button_Next'), 0)
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Category_View_Page/Category_View_Page_Objects/button_Next'))
+WebUI.scrollToElement(findTestObject('New Folder/Page_CaringConnections-v-1.17/Button_Next_Category_View_Page'), 0)
+
+WebUI.click(findTestObject('New Folder/Page_CaringConnections-v-1.17/Button_Next_Category_View_Page'))
 
 WebUI.scrollToElement(findTestObject('Help_Page/Calender_Help_Page_Companion/button_Help'), 0)
 

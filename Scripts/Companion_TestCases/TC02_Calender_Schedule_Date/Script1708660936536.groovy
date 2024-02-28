@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Companion_TestCases/TC01_Create_Profile_Type'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('New Folder/Page_CaringConnections-v-1.17/button_Next_tt'), 0)
+WebUI.scrollToElement(findTestObject('New Folder/Page_CaringConnections-v-1.17/Button_Next_Category_View_Page'), 0)
 
-WebUI.click(findTestObject('New Folder/Page_CaringConnections-v-1.17/button_Next_tt'))
+WebUI.click(findTestObject('New Folder/Page_CaringConnections-v-1.17/Button_Next_Category_View_Page'))
 
 //verify thankyou page
 //WebUI.verifyElementPresent(findTestObject('Object Repository/Thank_You_Page/Page_CaringConnections-v-1.18/txt_h1_Thank you'), 0)

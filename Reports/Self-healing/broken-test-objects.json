@@ -207,6 +207,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_25_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Help_Page/Calender_Help_Page_Companion/button_Help",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Help_Page/Calender_Help_Page_Companion/button_Help_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Help_Page/Calender_Help_Page_Companion/svg_buttonFeature",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.col-1 \u003e svg.buttonFeature",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Help_Page/Calender_Help_Page_Companion/svg_buttonFeature_CSS.png"
     }
   ]
 }
