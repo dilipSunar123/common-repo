@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Companion_Speak,Chrome 122.0.0.0,,,28-02-2024 14:14:43,28-02-2024 14:15:20,36.124s,FAILED
+,,,,,,,
+Test Cases/End_To_End_TestCases/Companion_Full_Flow/CreateProfile_Speak,Chrome 122.0.0.0,,,28-02-2024 14:14:44,28-02-2024 14:15:07,22.889s,FAILED
+"callTestCase(findTestCase(""Common_TestCases/Companion_SignUp""), [""username"":UserName, ""zipcode"":ZipCode, ""email"":Email, ""password"":Password], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,28-02-2024 14:14:44,28-02-2024 14:14:55,10.588s,PASSED
+"verifyElementPresent(findTestObject(""Profile_Creation_Page/Profile_Creation_Page_Objects/Text_Select the button of your choice to create your profile""), 10)",Chrome 122.0.0.0,,,28-02-2024 14:14:55,28-02-2024 14:15:07,11.764s,FAILED
+,,,,,,,
+Test Cases/End_To_End_TestCases/Companion_Full_Flow/ReRecord_Speak,Chrome 122.0.0.0,,,28-02-2024 14:15:07,28-02-2024 14:15:20,12.773s,FAILED
+"callTestCase(findTestCase(""Common_TestCases/Companion_Sign_In""), [""email"":"""", ""password"":""""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,28-02-2024 14:15:07,28-02-2024 14:15:14,6.944s,PASSED
+delay(5),Chrome 122.0.0.0,,,28-02-2024 14:15:14,28-02-2024 14:15:19,5.030s,PASSED
+"scrollToElement(findTestObject(""Category_View_Page/Category_View_Page_Objects/button_Re-record""), 0)",Chrome 122.0.0.0,,,28-02-2024 14:15:19,28-02-2024 14:15:20,0.124s,FAILED

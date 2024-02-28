@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_29",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[5]/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div[2]/div[2]/div[5]/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240228_120426/FunctionalTestSuites/Senior/Senior_Type/20240228_120427/Object Repository/Calendar_page/busyDates/JanuaryBusyDate/div_29_position.png"
+    }
+  ]
+}
