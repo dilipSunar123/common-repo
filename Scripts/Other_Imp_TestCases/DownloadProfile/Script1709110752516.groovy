@@ -70,9 +70,12 @@ String Others = WebUI.getAttribute(findTestObject('Category_View_Page/Category_V
 //String OtherNew = 'on a personal note, i manage hypertension with a balanced diet and regular yoga, but that doesn\'t stop me from embracing every moment of life!  '
 CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('OTHERS', Others, OtherNew)
 
-WebUI.verifyElementPresent(findTestObject('test/Page_CaringConnections-v-1.18/button_Download my profile'), 0)
+WebUI.verifyElementPresent(findTestObject('Verification_Guidence_And_Popup/Verification_Profile_View/button_Download my profile'), 
+    0)
 
-WebUI.click(findTestObject('test/Page_CaringConnections-v-1.18/button_Download my profile'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Verification_Guidence_And_Popup/Verification_Profile_View/button_Download my profile'))
 
 WebUI.delay(5)
 
@@ -99,4 +102,6 @@ WebUI.scrollToElement(findTestObject('Demographic Page/Demographic_Validation/Se
     0)
 
 WebUI.click(findTestObject('Demographic Page/Demographic_Validation/Senior_Demographic_Validation/Page_CaringConnections-v-1.18/button_Next'))
+
+WebUI.closeBrowser()
 

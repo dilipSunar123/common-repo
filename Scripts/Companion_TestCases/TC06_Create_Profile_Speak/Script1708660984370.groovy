@@ -40,12 +40,7 @@ options.addArguments('start-maximized')
 options.addArguments('force-device-scale-factor=1.2')
 
 //Set preferences to allow microphone access
-options.setExperimentalOption("prefs",
-	new HashMap<String, Object>() {{
-		put("profile.default_content_setting_values.media_stream_mic", 1);
-	}}
-);
-
+options.setExperimentalOption('prefs', new Script588805412889200$1())
 
 // Set preferences to allow microphone access
 DesiredCapabilities capabilities = DesiredCapabilities.chrome()

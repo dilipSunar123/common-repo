@@ -100,6 +100,5 @@ WebUI.click(findTestObject('Object Repository/Profile_Creation_Page/Profile_Crea
 //WebUI.waitForPageLoad(180)
 WebUI.delay(45)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'), 
-    65)
+WebUI.waitForElementClickable(findTestObject('Category_View_Page/Category_View_Page_Objects/button_Next'), 65)
 

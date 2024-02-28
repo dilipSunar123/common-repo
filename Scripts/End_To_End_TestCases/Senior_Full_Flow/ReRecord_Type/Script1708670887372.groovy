@@ -135,11 +135,10 @@ String Others = WebUI.getAttribute(findTestObject('Category_View_Page/Category_V
 //String OtherNew = 'on a personal note, i manage hypertension with a balanced diet and regular yoga, but that doesn\'t stop me from embracing every moment of life!  '
 CustomKeywords.'validateText.ValidateText.calculateAndPrintPercentageMatch'('OTHERS', Others, OtherNew)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'), 
-    65)
+WebUI.waitForElementClickable(findTestObject('Category_View_Page/Category_View_Page_Objects/button_Next'), 65)
 
 //click on save and continue btn
-WebUI.click(findTestObject('Object Repository/Category_View_Page/Category_View_Page_Objects/button_Next'))
+WebUI.click(findTestObject('Category_View_Page/Category_View_Page_Objects/button_Next'))
 
 //calender page
 WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/Clock_categoryToCalender'), 10)
@@ -147,6 +146,12 @@ WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/Clock_ca
 //WebUI.waitForElementClickable(findTestObject('null'),
 //    10)
 WebUI.scrollToElement(findTestObject('Calendar_page/Input_Start_Date'), 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_2'))
+
+WebUI.delay(3)
 
 //WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 //

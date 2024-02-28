@@ -135,6 +135,12 @@ WebUI.waitForElementNotPresent(findTestObject('WaitingPage/Waiting_Page/Clock_ca
 //    10)
 WebUI.scrollToElement(findTestObject('Calendar_page/Input_Start_Date'), 0)
 
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_2'))
+
+WebUI.delay(3)
+
 //WebUI.click(findTestObject('Calendar_page/Input_Start_Date'))
 //
 //WebUI.delay(3)

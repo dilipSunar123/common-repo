@@ -171,9 +171,11 @@ WebUI.scrollToElement(findTestObject('Calendar_page/Input_Start_Date'), 0)
 //WebUI.delay(3)
 WebUI.click(findTestObject('Calendar_page/Input_Busy_Days'))
 
-not_run: WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_27'))
+WebUI.delay(3)
 
-not_run: WebUI.delay(2)
+WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_2'))
+
+WebUI.delay(3)
 
 not_run: WebUI.click(findTestObject('Calendar_page/busyDates/JanuaryBusyDate/div_27'))
 
