@@ -5159,4 +5159,123 @@ Session ID: 5908abfa9568040accfcbff4e3be9351
   <property name="startLine">66</property>
   <property name="stepIndex">10</property>
 </record>
-</log>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-13T06:39:50.054178300Z</date>
+  <millis>1710311990054</millis>
+  <nanos>178300</nanos>
+  <sequence>747</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>402</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Companion/Companion_Functional_Data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-13T06:39:50.068151400Z</date>
+  <millis>1710311990068</millis>
+  <nanos>151400</nanos>
+  <sequence>748</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>402</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-13T06:39:50.069153400Z</date>
+  <millis>1710311990069</millis>
+  <nanos>153400</nanos>
+  <sequence>749</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>402</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\Dilip Sunar\git\common-repo\Data Files\Senior_Companion_Data_CaringConn.xlsx&amp;apos; and sheet name &amp;apos;Companion_Functional&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-13T06:49:57.416557500Z</date>
+  <millis>1710312597416</millis>
+  <nanos>557500</nanos>
+  <sequence>1340</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>454</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Companion/Companion_Functional_Data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-13T06:49:57.418550700Z</date>
+  <millis>1710312597418</millis>
+  <nanos>550700</nanos>
+  <sequence>1341</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>454</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-13T06:49:57.418550700Z</date>
+  <millis>1710312597418</millis>
+  <nanos>550700</nanos>
+  <sequence>1342</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>454</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\Dilip Sunar\git\common-repo\Data Files\Senior_Companion_Data_CaringConn.xlsx&amp;apos; and sheet name &amp;apos;Companion_Functional&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-13T06:50:07.841767300Z</date>
+  <millis>1710312607841</millis>
+  <nanos>767300</nanos>
+  <sequence>1343</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>401</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Companion/Companion_Functional_Data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-13T06:50:07.842764100Z</date>
+  <millis>1710312607842</millis>
+  <nanos>764100</nanos>
+  <sequence>1344</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>401</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2024-03-13T06:50:07.843760700Z</date>
+  <millis>1710312607843</millis>
+  <nanos>760700</nanos>
+  <sequence>1345</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>401</thread>
+  <message>Reading excel file with source file &amp;apos;C:\Users\Dilip Sunar\git\common-repo\Data Files\Senior_Companion_Data_CaringConn.xlsx&amp;apos; and sheet name &amp;apos;Companion_Functional&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>

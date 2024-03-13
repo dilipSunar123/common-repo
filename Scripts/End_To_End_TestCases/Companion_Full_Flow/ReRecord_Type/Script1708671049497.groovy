@@ -65,15 +65,17 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 ////click on signup button
 //WebUI.click(findTestObject('Object Repository/Login_Pages/Sign_In_Page/button_Sign_In'))
 //click on rerecord button
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
+not_run: WebUI.navigateToUrl('https://caring-connections-qa.azurewebsites.net/')
 
-WebUI.setText(findTestObject('Login_Pages/Sign_In_Page/input_Username'), 'yest12@gmail.com')
+not_run: WebUI.setText(findTestObject('Login_Pages/Sign_In_Page/input_Username'), 'yest12@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Login_Pages/Sign_In_Page/input_Password'), 'QmrIyMB454Sq0s0w1zzgnQ==')
+not_run: WebUI.setEncryptedText(findTestObject('Login_Pages/Sign_In_Page/input_Password'), 'QmrIyMB454Sq0s0w1zzgnQ==')
 
-WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Sign In'))
+not_run: WebUI.click(findTestObject('Login_Pages/Sign_In_Page/button_Sign In'))
+
+WebUI.callTestCase(findTestCase('Common_TestCases/Companion_Sign_In'), [('email') : '', ('password') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
